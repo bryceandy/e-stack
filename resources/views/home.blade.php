@@ -55,6 +55,14 @@
 
 <div id="content">
 
+    <div id="intro">
+        <div id="companyTitle">eStack Systems &amp; Security</div>
+
+        <div id="introText"></div>
+
+        <button id="introButton"><span class="introbtntxt">SEE MORE</span></button>
+    </div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -80,7 +80,7 @@ body{
     top: 0;
     right: 0;
     width: 100%;
-    color: var(--color-1);
+    color: var(--color-2);
     height: 33.3%;
     cursor: pointer;
 }
@@ -101,4 +101,28 @@ body{
     display: grid;
     grid-template-rows: 85.7143vh 257.1429vh 85.7143vh 85.7143vh;
     grid-template-columns: 75vw;
+}
+#intro{
+    position: relative;
+    grid-area: 1/1/2/2;
+    background-color: #fff;
+}
+#companyTitle{
+    font-size: 2.8rem;
+    position: absolute;
+    top: 21.43vh;
+    left: 5vw;
+    color: var(--color-2);
+}
+#introText{
+    position: absolute;color: #fff;top: 29.99vh; left: 5vw; height: 40vh; width: 65vw; background-color: var(--color-2);
+}
+#introButton{
+    position: absolute; font-size: larger; top: 68.57vh; left: 5vw; background: var(--color-1); transition:background 1.2s;
+}
+#introButton:hover{
+    background: var(--color-2);
+}
+.introbtntxt{
+    font-size: small; color: #fff;
 }
