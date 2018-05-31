@@ -130,15 +130,15 @@ body{
 .goal1, .goal2, .goal3{
     font-size: 2rem;
     color: #fff;
-    width: 0;
+    width: 65vw;
 }
 .goal1 span{
-    animation: typing 2s steps(15, end) ;
-    -webkit-animation: typing 2s steps(15, end) ;
+    animation: typing 5s steps(15, end) ;
+    -webkit-animation: typing 5s steps(15, end) ;
 }
 @keyframes typing {
-    0%   { width: 100%; }
-    100% { width: 0; }
+    0%   { width: 0; }
+    100% { width: 100%; }
 }
 #introButton{
     position: absolute; font-size: xx-large; top: 68.57vh; left: 5vw; background: var(--color-1);
