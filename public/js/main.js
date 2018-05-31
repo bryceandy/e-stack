@@ -11,7 +11,7 @@ var controller = new ScrollMagic.Controller();
 new ScrollMagic.Scene({
     triggerElement: "#header",
     triggerHook: "onLeave",
-    offset: 1
+    offset: -1
 })
     .setTween(TweenMax.to("#header", 0.1, {autoAlpha: 0}))
     .addTo(controller);
