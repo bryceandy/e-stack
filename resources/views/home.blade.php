@@ -38,7 +38,7 @@
 </div>
 
 <div id="logo">
-    <h1>eStack</h1>
+    <h1><a href="/">eStack</a></h1>
 </div>
 
 <div id="links">

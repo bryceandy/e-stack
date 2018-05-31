@@ -59,6 +59,9 @@ body{
     color: var(--color-1);
 
 }
+#logo h1 a{
+    text-decoration: none;
+}
 .linktitle, #logo h1{
     position: absolute;
     top: 50%;
