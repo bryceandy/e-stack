@@ -39,7 +39,7 @@ body{
     padding-left: 5vw;
     z-index: 5;
 }
-.moto, .linktitle{
+.moto{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -57,10 +57,14 @@ body{
 }
 #logo h1{
     color: var(--color-1);
+
+}
+.linktitle, #logo h1{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 #links{
     position: fixed;
@@ -73,9 +77,9 @@ body{
 #services, #about, #contact{
     font-size: small;
     position: relative;
+    top: 0;
     right: 0;
     width: 100%;
-    text-align: center;
     color: var(--color-1);
     height: 33.3%;
     cursor: pointer;
@@ -84,16 +88,8 @@ body{
     background-color: var(--color-1);
     color: black;
 }
-#services{
-    top: 0;
+#services, #about{
     border-bottom: var(--color-2);
-}
-#about{
-    top: 33.3%;
-    border-bottom: var(--color-2);
-}
-#contact{
-    top: 66.6%;
 }
 #content{
     position: fixed;
