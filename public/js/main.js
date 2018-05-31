@@ -9,6 +9,15 @@ $("#introButton").click(function(){
 var controller = new ScrollMagic.Controller();
 
 new ScrollMagic.Scene({
+    triggerElement: "#header",
+    triggerHook: "onLeave",
+    offset: window.innerHeight * -0.143
+})
+    .setPin("#header")
+    .addTo(controller);
+
+/*
+new ScrollMagic.Scene({
     triggerElement: "#companyTitle",
     triggerHook: "onLeave",
     offset: window.innerHeight * -0.145
@@ -30,4 +39,4 @@ new ScrollMagic.Scene({
     offset: window.innerHeight * -0.145
 })
     .setTween(TweenMax.to("#introButton", 0.1, {autoAlpha: 0}))
-    .addTo(controller);
+    .addTo(controller);*/
