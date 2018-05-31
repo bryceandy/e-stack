@@ -60,7 +60,7 @@
 
         <div id="introText"></div>
 
-        <button id="introButton"><span class="introbtntxt">SEE MORE</span></button>
+        <button id="introButton"><span class="introbtntxt">DISCOVER MORE</span></button>
     </div>
 
     <div id="eservices">
