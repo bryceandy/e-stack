@@ -9,11 +9,11 @@ $("#introButton").click(function(){
 var controller = new ScrollMagic.Controller();
 
 new ScrollMagic.Scene({
-    triggerElement: "#companyTitle",
+    triggerElement: "#header",
     triggerHook: "onLeave",
     offset: 1
 })
-    .setTween(TweenMax.to("#companyTitle", 0.1, {autoAlpha: 0}))
+    .setTween(TweenMax.to("#header", 0.1, {autoAlpha: 0}))
     .addTo(controller);
 
 /*
