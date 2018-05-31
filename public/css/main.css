@@ -96,6 +96,7 @@ body{
     top: 14.2857vh;
     right: 5vw;
     border-right: 1px solid var(--color-2);
+    border-left: 1px solid var(--color-2);
     background-color: #fff;
     display: grid;
     grid-template-rows: 85.7143vh 257.1429vh 85.7143vh 85.7143vh;
