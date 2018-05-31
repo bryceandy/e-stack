@@ -29,7 +29,7 @@ body{
 }
 #header{
     color: #fff;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 5vw;
     height: 14.2857vh;
@@ -128,10 +128,10 @@ body{
     width: 65vw;
 }
 .goal1 span{
-    animation: type 2s steps(15, end) infinite;
-    -webkit-animation: type 2s steps(15, end) infinite;
+    animation: typing 2s steps(15, end) ;
+    -webkit-animation: typing 2s steps(15, end) ;
 }
-@keyframes type {
+@keyframes typing {
     from{
         width: 0;
     }
