@@ -104,10 +104,10 @@
         $servicesbottom = parseInt(window.innerHeight * 3.47) ;
 
         $(window).scroll(function () {
-                if ($(this).scrollTop() > $servicestop && $(this).scrollTop() < $servicesbottom) {
+                if (($(this).scrollTop() > $servicestop) && ($(this).scrollTop() < $servicesbottom)) {
                     $('#header').addClass('changeHeader');
                 }
-                if ($(this).scrollTop() > $servicesbottom && $(this).scrollTop() < $servicestop) {
+                if (($(this).scrollTop() > $servicesbottom) || ($(this).scrollTop() < $servicestop)) {
                     $('#header').removeClass('changeHeader');
                 }
         });
