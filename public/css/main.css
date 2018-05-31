@@ -29,7 +29,7 @@ body{
 }
 #header{
     color: #fff;
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 5vw;
     height: 14.2857vh;
@@ -39,6 +39,10 @@ body{
     text-align: left;
     padding-left: 5vw;
     z-index: 5;
+    transition: color 1s;
+}
+.changeHeader{
+    color: #000;
 }
 .moto{
     position: absolute;
@@ -96,6 +100,7 @@ body{
     display: grid;
     grid-template-rows: 85.7143vh 257.1429vh 85.7143vh 85.7143vh;
     grid-template-columns: 75vw;
+    z-index: 1;
 }
 #intro{
     position: relative;
@@ -115,15 +120,28 @@ body{
     color: var(--color-2);
 }
 #introText{
-    position: absolute;color: #fff;top: 30vh; left: 5vw; height: 35vh; width: 65vw; background-color: var(--color-2);
+    position: absolute;color: #fff;top: 30vh; left: 5vw; height: 35vh; width: 65vw;  padding-top: 0; text-align: left;
+}
+.goal1, .goal2, .goal3{
+    font-size: 2rem;
+    color: #fff;
+}
+.goal1 span{
+    animation: type 2s steps(15, end) infinite;
+    -webkit-animation: type 2s steps(15, end) infinite;
+}
+@keyframes type {
+    from{
+        width: 0;
+    }
 }
 #introButton{
-    position: absolute; font-size: xx-large; top: 68.57vh; left: 5vw; background: var(--color-1); transition:background 1.2s;
-    padding-left: 2.5vw; padding-right: 2.5vw;border: none;
+    position: absolute; font-size: xx-large; top: 68.57vh; left: 5vw; background: var(--color-1); transition:background 0.6s ease-in;
+    padding-left: 2.5vw; padding-right: 2.5vw;border: none; cursor: pointer;
 }
 #introButton:hover{
     background: var(--color-2);
 }
 .introbtntxt{
-    font-size: small; color: #fff; vertical-align: middle;cursor: pointer;
+    font-size: small; color: #fff; vertical-align: middle;
 }

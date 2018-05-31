@@ -58,7 +58,19 @@
     <div id="intro">
         <div id="companyTitle">eStack Systems &amp; Security</div>
 
-        <div id="introText"></div>
+        <div id="introText">
+            <div class="goal1">
+                <span>Bridge skills gap in the Info-Security Industry</span><br />
+                <span>by providing training and mentorship for both</span><br />
+                <span>technical experts and organisations in Tanzania.</span>
+            </div>
+            <div class="goal2">
+
+            </div>
+            <div class="goal3">
+
+            </div>
+        </div>
 
         <button id="introButton"><span class="introbtntxt">DISCOVER MORE</span></button>
     </div>
@@ -84,6 +96,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{'js/jquery-3.2.1.js'}}">\x3C/script>')</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $servicestop = parseInt(window.innerHeight * 0.9) ;
+        $servicesbottom = parseInt(window.innerHeight * 3.47) ;
+
+        $(window).scroll(function () {
+                if ($(this).scrollTop() > $servicestop && $(this).scrollTop() < $servicesbottom) {
+                    $('#header').addClass('changeHeader');
+                }
+                if ($(this).scrollTop() > $servicesbottom && $(this).scrollTop() < $servicestop) {
+                    $('#header').removeClass('changeHeader');
+                }
+        });
+
+    });
+
+</script>
 
 <script src="{{'js/main.js'}}"></script>
 </body>
