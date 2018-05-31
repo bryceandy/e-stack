@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('/services/information-security-training', 'PagesController@training');
+Route::get('/services/consultancy', 'PagesController@consultancy');
+Route::get('/services/managed-security', 'PagesController@managed');

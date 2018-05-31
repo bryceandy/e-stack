@@ -1,0 +1,102 @@
+:root{
+    --color-1: #f4645f;
+    --color-2: #e1e1e1;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--color-1);
+}
+::-webkit-scrollbar-button{
+    display: none;
+}
+body{
+    background-color: #000;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: "Poppins";
+}
+#blank{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 5vw;
+}
+#header{
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: 5vw;
+    height: 14.2857vh;
+    width: 75vw;
+    border-right: var(--color-2);
+    text-align: left;
+    padding-left: 5vw;
+    z-index: 5;
+}
+#logo{
+    position: fixed;
+    top: 0;
+    right: 80vw;
+    height: 14.2857vh;
+    width: 20vw;
+    border-right: var(--color-2);
+    border-bottom: var(--color-2);
+    text-align: center;
+}
+#links{
+    position: fixed;
+    top: 14.2857vh;
+    right: 80vw;
+    height: 85.7143vh;
+    width: 20vw;
+    border-right: var(--color-2);
+}
+#services{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 33.3%;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--color-1);
+    border-bottom: var(--color-2);
+}
+#about{
+    position: absolute;
+    top: 33.3%;
+    right: 0;
+    width: 100%;
+    height: 33.3%;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--color-1);
+    border-bottom: var(--color-2);
+}
+#contact{
+    position: absolute;
+    top: 66.6%;
+    right: 0;
+    width: 100%;
+    height: 33.3%;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--color-1);
+}
+#content{
+    position: relative;
+    top: 14.2857vh;
+    right: 5vw;
+    border-right: var(--color-2);
+    border-top: var(--color-2);
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 85.7143vh 257.1429vh 85.7143vh 85.7143vh;
+    grid-template-columns: 75vw;
+}
