@@ -13,7 +13,7 @@ new ScrollMagic.Scene({
     triggerHook: "onLeave",
     offset: window.innerHeight * -0.145
 })
-    .setTween(TweenMax.to("#companyTitle", 0.2, {autoAlpha: 0}))
+    .setTween(TweenMax.to("#companyTitle", 0.1, {autoAlpha: 0}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -21,7 +21,7 @@ new ScrollMagic.Scene({
     triggerHook: "onLeave",
     offset: window.innerHeight * -0.145
 })
-    .setTween(TweenMax.to("#introText", 0.2, {autoAlpha: 0}))
+    .setTween(TweenMax.to("#introText", 0.1, {autoAlpha: 0}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -29,5 +29,5 @@ new ScrollMagic.Scene({
     triggerHook: "onLeave",
     offset: window.innerHeight * -0.145
 })
-    .setTween(TweenMax.to("#introButton", 0.2, {autoAlpha: 0}))
+    .setTween(TweenMax.to("#introButton", 0.1, {autoAlpha: 0}))
     .addTo(controller);
