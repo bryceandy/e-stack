@@ -34,7 +34,7 @@
 <div id="blank"></div>
 
 <div id="header">
-    World-Class<br />Information Security Providers
+    <span class="moto">World-Class<br />Information Security Providers</span>
 </div>
 
 <div id="logo">
@@ -43,13 +43,13 @@
 
 <div id="links">
     <div id="services">
-        SERVICES
+        <span class="linktitle">SERVICES</span>
     </div>
     <div id="about">
-        ABOUT US
+        <span class="linktitle">ABOUT US</span>
     </div>
     <div id="contact">
-        CONTACT US
+        <span class="linktitle">CONTACT US</span>
     </div>
 </div>
 
