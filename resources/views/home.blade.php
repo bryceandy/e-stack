@@ -100,15 +100,17 @@
 <script type="text/javascript">
     $(document).ready(function(){
 
-        $servicestop = parseInt(window.innerHeight * 0.9) ;
-        $servicesbottom = parseInt(window.innerHeight * 3.47) ;
+        $servicestop = parseInt(window.innerHeight * 1.2) ;
+        $servicesbottom = parseInt(window.innerHeight * 3.77) ;
 
         $(window).scroll(function () {
                 if ($(this).scrollTop() > $servicestop) {
                     $('#header').addClass('changeHeader');
+                    $('#services').addClass('changeServices');
                 }
                 if ($(this).scrollTop() > $servicesbottom) {
                     $('#header').removeClass('changeHeader');
+                    $('#services').removeClass('changeServices');
                 }
         });
 
