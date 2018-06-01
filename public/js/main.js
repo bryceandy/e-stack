@@ -37,7 +37,7 @@ var typer = new TypeIt('.goal', {
 
 var typer2 = new TypeIt('#wwd1', {
     speed: 120,
-    autoStart: true,
+    autoStart: false,
     lifeLike: true
 })
     .type('Information Security Trainging')

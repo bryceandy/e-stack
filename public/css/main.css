@@ -145,11 +145,11 @@ body{
 }
 #companyBrief{
     position: absolute;
-    top: 15vh;
+    top: 20vh;
     right: 5vw;
-    width: 65vw;
+    width: 50vw;
     text-align: right;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     color: var(--color-1);
 }
 #servicesTitle{
