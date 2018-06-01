@@ -60,7 +60,7 @@ new ScrollMagic.Scene({
     triggerElement: "#content",
     triggerHook: "onLeave"
 })
-    .setTween(TweenMax.to(window, 1, {scrollTo:{y: "#eservices", autoKill: false}}))
+    .setTween(TweenMax.to(window, 1, {scrollTo: "#eservices"}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
