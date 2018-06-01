@@ -136,7 +136,7 @@
 
         <div id="contactTitle"></div>
 
-        <svg id="contactSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 85.7143" preserveAspectRatio="none">
+        <svg id="contactSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.7143 75" preserveAspectRatio="none">
             <path fill="#000" stroke="#000" stroke-width="0" d=" M75,0 C62,42.9 17,71.43 0,57.14 L0,0 L75,85.71 Z "></path>
         </svg>
 
