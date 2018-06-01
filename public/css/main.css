@@ -130,7 +130,7 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url('../images/Amani-Place.jpg');
+    background: url('../images/Amani-Place.jpg');
     background-size: 75vw 105.7143vh;
     background-repeat: no-repeat;
     background-position: right 0 top 14.2857vh;
