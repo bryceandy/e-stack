@@ -249,15 +249,15 @@ body{
 }
 #aboutus img{
     position: absolute;
-    top: /*14.2857*/0;
+    top: 0;
     right: 0;
-    height: /*105.7143*/120vh;
+    height: 120vh;
     width: 75vw;
     opacity: 0.05;
 }
 #aboutBrief{
     position: absolute;
-    top: 25vh;
+    top: 35vh;
     left: 5vw;
     font-size: 1.4rem;
     color: var(--color-1);
