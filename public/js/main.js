@@ -111,7 +111,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd2",
     triggerHook: "#servicesTitle",
-    offset: 80
+    offset: 90
 })
     .setTween(TweenMax.to("#wwd2", 0.2, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
@@ -119,7 +119,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd2Details",
     triggerHook: "#servicesTitle",
-    offset: 50
+    offset: 60
 })
     .setTween(TweenMax.to("#wwd2Details", 0.2, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
