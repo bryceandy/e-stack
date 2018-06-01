@@ -149,6 +149,15 @@
 
     </div>
 
+    <div id="footer">
+        <div class="left">
+            eStack Systems&amp;Security &copy; 2018
+        </div>
+        <div class="right">
+            Site by <a href="http://www.bryceandy.com">BryceAndy</a>
+        </div>
+    </div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

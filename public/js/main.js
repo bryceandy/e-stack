@@ -74,7 +74,7 @@ var typer6 = new TypeIt('#contactTitle', {
     speed: 250,
     autoStart: false
 })
-    .type('Sleep In T')
+    .type('Feel Free To Sleep In T')
     .delete(9)
     .type('tay In Touch');
 
