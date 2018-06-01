@@ -296,14 +296,14 @@ body{
 }
 #contactSvg{
     position: absolute;
-    bottom: 0;
+    top: 14.2857vh;
     right: 0;
     height: 85.714vh;
     width: 75vw;
 }
 #contactTitle{
     position: absolute;
-    top: 35vh;
+    top: 30vh;
     left: 5vw;
     font-size: 2.8rem;
     color: var(--color-2);
