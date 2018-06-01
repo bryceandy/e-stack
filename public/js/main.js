@@ -35,6 +35,17 @@ var typer = new TypeIt('.goal', {
     .break()
     .type('required in protecting information infrastructures.');
 
+var typer2 = new TypeIt('#wwd1', {
+    speed: 120,
+    autoStart: true,
+    lifeLike: true
+})
+    .type('Information Security Trainging')
+    .options({speed: 200})
+    .delete(4)
+    .options({speed: 150})
+    .type('ing');
+
 var controller = new ScrollMagic.Controller();
 
 new ScrollMagic.Scene({
@@ -49,6 +60,12 @@ new ScrollMagic.Scene({
     triggerElement: "#content",
     triggerHook: "onLeave"
 })
-    .setTween(TweenMax.to(window, 1, {scrollTo: "#eservices"}))
+    .setTween(TweenMax.to(window, 1, {scrollTo:{y: "#eservices", autoKill: false}}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#companyBrief"
+})
+    .setTween(TweenMax.to("#companyBrief", 0.5, {autoAlpha: 0, y: 300}))
     .addTo(controller);
 
