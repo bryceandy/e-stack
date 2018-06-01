@@ -249,7 +249,7 @@ body{
 }
 #aboutus img{
     position: absolute;
-    top: 14.2857vh;
+    top: /*14.2857*/0;
     right: 0;
     height: /*105.7143*/120vh;
     width: 75vw;
@@ -257,7 +257,7 @@ body{
 }
 #aboutBrief{
     position: absolute;
-    top: 20vh;
+    top: 25vh;
     left: 5vw;
     font-size: 1rem;
     color: var(--color-1);
@@ -268,5 +268,5 @@ body{
     color: #000;
 }
 #aboutBrief i{
-    color: #fff;
+    color: var(--color-2);
 }
