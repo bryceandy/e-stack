@@ -119,7 +119,7 @@
         <div id="aboutBrief">
             <i>eStack</i> believes in utilizing global experience and expertise in solving<br />
               our customer’s problems. We employ local staff, and partner with<br />
-              international top notch Systems & Security specialist to deliver top<br />
+              international top notch Systems &amp; Security specialist to deliver top<br />
               class service to our customers.
         </div>
         <div id="aboutPeople"></div>
@@ -151,7 +151,7 @@
 
     <div id="footer">
         <div class="left">
-            eStack Systems&amp;Security &copy; 2018
+            eStack Systems &amp; Security &copy; 2018
         </div>
         <div class="right">
             Site by <a href="http://www.bryceandy.com">BryceAndy</a>
