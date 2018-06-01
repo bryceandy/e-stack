@@ -63,10 +63,4 @@ new ScrollMagic.Scene({
     .setTween(TweenMax.to(window, 1, {scrollTo: "#eservices"}))
     .addTo(controller);
 
-new ScrollMagic.Scene({
-    triggerElement: "#servicesTitle",
-    triggerHook: "onCenter"
-})
-    .setTween(TweenMax.to("#servicesTitle", 0.5, {autoAlpha: 0, y: 300}))
-    .addTo(controller);
 
