@@ -105,7 +105,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
 
-        $servicestop = parseInt(window.innerHeight * 1.15) ;
+        $servicestop = parseInt(window.innerHeight * 1.05) ;
         $servicesbottom = parseInt(window.innerHeight * 3.72) ;
 
         $(window).scroll(function () {
