@@ -201,6 +201,30 @@
 
 </script>
 
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $("#services").click(function(){
+            $('body, html').animate({
+                scrollTop: $("#eservices").offset().top
+            }, 1200);
+        });
+
+        $("#about").click(function(){
+            $('body, html').animate({
+                scrollTop: $("#aboutus").offset().top
+            }, 1200);
+        });
+
+        $("#contact").click(function(){
+            $('body, html').animate({
+                scrollTop: $("#contactus").offset().top
+            }, 1200);
+        });
+        
+    });
+</script>
+
 <script src="{{'js/main.js'}}"></script>
 </body>
 </html>

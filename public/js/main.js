@@ -1,23 +1,3 @@
-$("#services").click(function(){
-    /*TweenMax.to(window, 1.5, {scrollTo:"#eservices"});*/
-    $('body, html').animate({
-        scrollTop: $("#eservices").offsetTop
-    }, 1200);
-});
-
-$("#about").click(function(){
-    /*TweenMax.to(window, 1.5, {scrollTo:"#aboutus"});*/
-    $('body, html').animate({
-        scrollTop: $("#aboutus").offsetTop
-    }, 1200);
-});
-
-$("#contact").click(function(){
-    /*TweenMax.to(window, 1.5, {scrollTo:"#contactus"});*/
-    $('body, html').animate({
-        scrollTop: $("#contactus").offsetTop
-    }, 1200);
-});
 
 $("#introButton").click(function(){
     TweenMax.to(window, 1.5, {scrollTo:"#eservices"});
@@ -112,14 +92,6 @@ new ScrollMagic.Scene({
     triggerHook: "onLeave"
 })
     .setTween(TweenMax.to(window, 1, {scrollTo: "#eservices"}))
-    .addTo(controller);
-
-new ScrollMagic.Scene({
-    triggerElement: "#aboutus",
-    triggerHook: "onLeave",
-    offset: 40
-})
-    .setTween(TweenMax.to(window, 1, {scrollTo: "#contactus"}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
