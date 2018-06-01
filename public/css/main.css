@@ -127,18 +127,10 @@ body{
 #introText{
     position: absolute;color: #fff;top: 30vh; left: 5vw; height: 35vh; width: 65vw; padding-top: 0; text-align: left;
 }
-.goal1, .goal2, .goal3{
+.goal{
     font-size: 2rem;
     color: #fff;
     width: 65vw;
-}
-.goal1 span{
-    animation: typing 5s steps(15, end) ;
-    -webkit-animation: typing 5s steps(15, end) ;
-}
-@keyframes typing {
-    0%   { width: 0; }
-    100% { width: 100%; }
 }
 #introButton{
     position: absolute; font-size: xx-large; top: 68.57vh; left: 5vw; background: var(--color-1);

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{'css/main.css'}}" />
 
     {{--<link rel="icon" href="/images/">--}}
-
+    <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.5/paper-full.min.js"></script>
     <script src="{{'js/main.js'}}"></script>
@@ -59,17 +59,7 @@
         <div id="companyTitle">eStack Systems &amp; Security</div>
 
         <div id="introText">
-            <div class="goal1">
-                <span>Bridge skills gap in the Info-Security Industry</span><br />
-                <span>by providing training and mentorship for both</span><br />
-                <span>technical experts and organisations in Tanzania.</span>
-            </div>
-            <div class="goal2">
-
-            </div>
-            <div class="goal3">
-
-            </div>
+            <div class="goal"></div>
         </div>
 
         <button id="introButton"><span class="introbtntxt">DISCOVER MORE</span></button>
@@ -100,8 +90,8 @@
 <script type="text/javascript">
     $(document).ready(function(){
 
-        $servicestop = parseInt(window.innerHeight * 1.2) ;
-        $servicesbottom = parseInt(window.innerHeight * 3.77) ;
+        $servicestop = parseInt(window.innerHeight * 1.3) ;
+        $servicesbottom = parseInt(window.innerHeight * 3.87) ;
 
         $(window).scroll(function () {
                 if ($(this).scrollTop() > $servicestop) {
@@ -112,6 +102,10 @@
                     $('#header').removeClass('changeHeader');
                     $('#services').removeClass('changeServices');
                 }
+            if ($(this).scrollTop() < $servicestop) {
+                $('#header').removeClass('changeHeader');
+                $('#services').removeClass('changeServices');
+            }
         });
 
     });
