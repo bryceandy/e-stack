@@ -103,14 +103,14 @@ new ScrollMagic.Scene({
 
 new ScrollMagic.Scene({
     triggerElement: "#eservices",
-    triggerHook: "onLeave"
+    triggerHook: "onLeave", duration: window.innerHeight * 2
 })
     .setPin("#servicesTitle")
     .addTo(controller);
 
 new ScrollMagic.Scene({
     triggerElement: "#eservices",
-    triggerHook: "onLeave"
+    triggerHook: "onLeave", duration: window.innerHeight * 2
 })
     .setPin("#companyBrief")
     .addTo(controller);
