@@ -251,17 +251,22 @@ body{
     position: absolute;
     top: 14.2857vh;
     right: 0;
-    height: 105.7143vh;
+    height: /*105.7143*/120vh;
     width: 75vw;
-    z-index: -1;
-    opacity: 0.5;
+    opacity: 0.1;
 }
 #aboutBrief{
     position: absolute;
     top: 20vh;
     left: 5vw;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--color-1);
     text-align: left;
     z-index: 1;
+}
+#companyBrief i{
+    color: #000;
+}
+#aboutBrief i{
+    color: #fff;
 }
