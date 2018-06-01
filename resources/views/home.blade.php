@@ -141,8 +141,8 @@
         $servicestop = parseInt(window.innerHeight * 1.05) ;
         $servicesbottom = parseInt(window.innerHeight * 3.25) ;
         $abouttop = parseInt(window.innerHeight * 3.3) ;
-        $aboutbottom = parseInt(window.innerHeight * 4.5) ;
-        $contacttop = parseInt(window.innerHeight * 4.51) ;
+        $aboutbottom = parseInt(window.innerHeight * 4.45) ;
+        $contacttop = parseInt(window.innerHeight * 4.47) ;
 
         $(window).scroll(function () {
                 if ($(this).scrollTop() > $servicestop) {
