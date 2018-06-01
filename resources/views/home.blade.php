@@ -133,6 +133,10 @@
         </div>
     </div>
 
+    <div id="contactus">
+
+    </div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -157,8 +161,8 @@
         $servicestop = parseInt(window.innerHeight * 1.05) ;
         $servicesbottom = parseInt(window.innerHeight * 3.25) ;
         $abouttop = parseInt(window.innerHeight * 3.3) ;
-        $aboutbottom = parseInt(window.innerHeight * 4.45) ;
-        $contacttop = parseInt(window.innerHeight * 4.47) ;
+        $aboutbottom = parseInt(window.innerHeight * 4.5) ;
+        $contacttop = parseInt(window.innerHeight * 4.6) ;
 
         $(window).scroll(function () {
                 if ($(this).scrollTop() > $servicestop) {
@@ -186,9 +190,11 @@
 
                 if ($(this).scrollTop() > $contacttop) {
                     $('#contact').addClass('changeContact');
+                    $('#header').addClass('changeHeader');
                 }
                 if ($(this).scrollTop() < $contacttop) {
                     $('#contact').removeClass('changeContact');
+                    $('#header').removeClass('changeHeader');
                 }
         });
 

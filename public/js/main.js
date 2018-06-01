@@ -6,6 +6,14 @@ $("#introButton").click(function(){
     TweenMax.to(window, 1.5, {scrollTo:"#eservices"});
 });
 
+$("#about").click(function(){
+    TweenMax.to(window, 1.5, {scrollTo:"#aboutus"});
+});
+
+$("#contact").click(function(){
+    TweenMax.to(window, 1.5, {scrollTo:"#contactus"});
+});
+
 var typer = new TypeIt('.goal', {
     speed: 120,
     autoStart: true
@@ -74,11 +82,11 @@ var typer5 = new TypeIt('#aboutPeople', {
     .type('ople include...');
 
 var stagg = new TimelineMax();
-stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn})
-    .staggerFrom(".ppl2", 1, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
-    .staggerFrom(".ppl3", 1.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn})
-    .staggerFrom(".ppl4", 2, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
-    .staggerFrom(".ppl5", 2.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn});
+stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeOut})
+    .staggerFrom(".ppl2", 1, {autoAlpha: 0, x: 200, ease:Power1.easeOut})
+    .staggerFrom(".ppl3", 1.5, {autoAlpha: 0, x: -200, ease:Power1.easeOut})
+    .staggerFrom(".ppl4", 2, {autoAlpha: 0, x: 200, ease:Power1.easeOut})
+    .staggerFrom(".ppl5", 2.5, {autoAlpha: 0, x: -200, ease:Power1.easeOut});
 
 var controller = new ScrollMagic.Controller();
 
