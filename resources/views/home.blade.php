@@ -86,7 +86,7 @@
             To ensure organizations are able to appropriately appreciate<br />
             Security risks and are able to protect the organization’s<br />
             information assets,eStack provides world-class and affordable<br />
-            Information Security training to tech professionals in Tanzania.<br />
+            Information Security training to tech professionals in Tanzania.<br /><br />
 
             <button onclick="location.href='services/information-security-training'"><span class="trainingbtn">TRAINING</span></button>
         </div>
