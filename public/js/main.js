@@ -118,7 +118,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd2",
     triggerHook: "#servicesTitle",
-    offset: 100
+    offset: 110
 })
     .setTween(TweenMax.to("#wwd2", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
@@ -126,7 +126,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd2Details",
     triggerHook: "#servicesTitle",
-    offset: 70
+    offset: 80
 })
     .setTween(TweenMax.to("#wwd2Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
@@ -134,7 +134,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd3",
     triggerHook: "#servicesTitle",
-    offset: 100
+    offset: 110
 })
     .setTween(TweenMax.to("#wwd3", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
@@ -142,7 +142,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd3Details",
     triggerHook: "#servicesTitle",
-    offset: 70
+    offset: 80
 })
     .setTween(TweenMax.to("#wwd3Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
