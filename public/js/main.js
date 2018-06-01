@@ -63,4 +63,18 @@ new ScrollMagic.Scene({
     .setTween(TweenMax.to(window, 1, {scrollTo: "#eservices"}))
     .addTo(controller);
 
+new ScrollMagic.Scene({
+    triggerElement: "#wwd1",
+    triggerHook: window.innerHeight * 1.54
+})
+    .setTween(TweenMax.to("#wwd1", 0.1, {autoAlpha: 0}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#wwd1Details",
+    triggerHook: window.innerHeight * 1.54
+})
+    .setTween(TweenMax.to("#wwd1Details", 0.1, {autoAlpha: 0}))
+    .addTo(controller);
+
 
