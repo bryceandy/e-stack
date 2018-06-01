@@ -11,7 +11,7 @@ var typer = new TypeIt('.goal', {
     autoStart: true,
     lifeLike: true
 })
-    .type('Bridge skills gap in the Info-Security Industry')
+    .type('Bridging skills gap in the Info-Security Industry')
     .break()
     .type('by providing training and mentorship for both')
     .break()
