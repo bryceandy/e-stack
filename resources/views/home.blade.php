@@ -125,10 +125,10 @@
         </div>
         <div id="aboutPeople"></div>
         <div id="aboutList">
-            <span class="ppl1">Senior Systems Engineers</span>
-            <span class="ppl2">System Developers</span>
-            <span class="ppl3">Systems Security Specialists</span>
-            <span class="ppl4">Senior Network Specialists</span>
+            <span class="ppl1">Senior Systems Engineers</span><br />
+            <span class="ppl2">System Developers</span><br />
+            <span class="ppl3">Systems Security Specialists</span><br />
+            <span class="ppl4">Senior Network Specialists</span><br />
             <span class="ppl5">Technology Trainers</span>
         </div>
     </div>

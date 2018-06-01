@@ -75,10 +75,10 @@ var typer5 = new TypeIt('#aboutPeople', {
 
 var stagg = new TimelineMax();
 stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn})
-    .staggerFrom(".ppl2", 0.5, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
-    .staggerFrom(".ppl3", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn})
-    .staggerFrom(".ppl4", 0.5, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
-    .staggerFrom(".ppl5", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn});
+    .staggerFrom(".ppl2", 1, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
+    .staggerFrom(".ppl3", 1.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn})
+    .staggerFrom(".ppl4", 2, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
+    .staggerFrom(".ppl5", 2.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn});
 
 var controller = new ScrollMagic.Controller();
 
