@@ -26,7 +26,7 @@ var typer = new TypeIt('.goal', {
     .break()
     .type('protecting inforrmati')
     .delete(5)
-    .type('tion against cyber attackers.')
+    .type('mation against cyber attackers.')
     .pause(5000)
     .options({speed: 10})
     .delete()
@@ -43,5 +43,12 @@ new ScrollMagic.Scene({
     offset: 0
 })
     .setPin("#header")
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#content",
+    triggerHook: "onLeave"
+})
+    .setTween(TweenMax.to(window, 1, {scrollTo: "#eservices"}))
     .addTo(controller);
 

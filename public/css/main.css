@@ -103,7 +103,7 @@ body{
     border-left: 1px solid var(--color-2);
     background-color: #fff;
     display: grid;
-    grid-template-rows: 115.7143vh 257.1429vh 85.7143vh 85.7143vh;
+    grid-template-rows: 100.7143vh 257.1429vh 85.7143vh 85.7143vh;
     grid-template-columns: 75vw;
     z-index: 1;
 }
@@ -145,7 +145,7 @@ body{
 }
 #companyBrief{
     position: absolute;
-    top: 86vh;
+    top: 14.3vh;
     right: 5vw;
     width: 65vw;
     text-align: right;

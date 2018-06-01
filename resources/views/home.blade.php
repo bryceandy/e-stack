@@ -64,17 +64,18 @@
 
         <button id="introButton"><span class="introbtntxt">DISCOVER MORE</span></button>
 
+    </div>
+
+    <div id="eservices">
+
         <div id="companyBrief">
 
             <i>eStack</i> was established to respond to the challenges<br />
-            in the Information Security Industry in Tanzania, whereby<br />
+            in the Information Security Industry in Tanzania, where<br />
             there's lack of adequate skills in protecting organizations<br />
             from potential cyber-attacks.
 
         </div>
-    </div>
-
-    <div id="eservices">
 
     </div>
 
@@ -99,8 +100,8 @@
 <script type="text/javascript">
     $(document).ready(function(){
 
-        $servicestop = parseInt(window.innerHeight * 1.3) ;
-        $servicesbottom = parseInt(window.innerHeight * 3.87) ;
+        $servicestop = parseInt(window.innerHeight * 1.15) ;
+        $servicesbottom = parseInt(window.innerHeight * 3.72) ;
 
         $(window).scroll(function () {
                 if ($(this).scrollTop() > $servicestop) {
