@@ -69,7 +69,7 @@
 
         <div id="companyBrief">
 
-            <i>eStack</i> was established to respond to the challenges<br />
+            <i>eStack</i> was established to respond to the potential challenges<br />
             in the Information Security Industry in Tanzania, where<br />
             there's lack of adequate skills in protecting many<br />
             organizations from potential cyber-attacks.
@@ -133,6 +133,12 @@
     </div>
 
     <div id="contactus">
+
+        <div id="contactTitle"></div>
+
+        <svg id="contactSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 85.7143" preserveAspectRatio="none">
+            <path fill="#000" stroke="#000" stroke-width="0" d=" M77.5,-5 C74,21 17,64.29 -5,42.9 L0,0 L75,85.71 Z "></path>
+        </svg>
 
     </div>
 
@@ -221,7 +227,7 @@
                 scrollTop: $("#contactus").offset().top
             }, 1200);
         });
-        
+
     });
 </script>
 

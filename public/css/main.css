@@ -294,3 +294,17 @@ body{
     text-align: center;
     font-size: 1.2rem;
 }
+#contactSvg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 85.714vh;
+    width: 75vw;
+}
+#contactTitle{
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+    font-size: 2.8rem;
+    color: var(--color-2);
+}

@@ -4,7 +4,7 @@ $("#introButton").click(function(){
 });
 
 var typer = new TypeIt('.goal', {
-    speed: 120,
+    speed: 90,
     autoStart: true
 })
     .type('Bridging skills gap in the Info-Security Industry')
@@ -15,7 +15,7 @@ var typer = new TypeIt('.goal', {
     .pause(5000)
     .options({speed: 10})
     .delete()
-    .options({speed: 120})
+    .options({speed: 90})
     .type('Providing affordable technical assistance and')
     .break()
     .type('consulting services to Tanzania’s organizations')
@@ -26,7 +26,7 @@ var typer = new TypeIt('.goal', {
     .pause(5000)
     .options({speed: 10})
     .delete()
-    .options({speed: 120})
+    .options({speed: 90})
     .type('Providing security tools, commercial & custom built')
     .break()
     .type('required in protecting information infrastructures.');
@@ -70,12 +70,20 @@ var typer5 = new TypeIt('#aboutPeople', {
     .delete(4)
     .type('ople include...');
 
+var typer6 = new TypeIt('#contactTitle', {
+    speed: 250,
+    autoStart: false
+})
+    .type('Sleep In T')
+    .delete(9)
+    .type('tay In Touch');
+
 var stagg = new TimelineMax();
-stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeOut})
-    .staggerFrom(".ppl2", 1, {autoAlpha: 0, x: 200, ease:Power1.easeOut})
-    .staggerFrom(".ppl3", 1.5, {autoAlpha: 0, x: -200, ease:Power1.easeOut})
-    .staggerFrom(".ppl4", 2, {autoAlpha: 0, x: 200, ease:Power1.easeOut})
-    .staggerFrom(".ppl5", 2.5, {autoAlpha: 0, x: -200, ease:Power1.easeOut});
+stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -300, ease:Elastic.easeIn})
+    .staggerFrom(".ppl2", 1, {autoAlpha: 0, x: 300, ease:Elastic.easeIn})
+    .staggerFrom(".ppl3", 1.5, {autoAlpha: 0, x: -300, ease:Elastic.easeIn})
+    .staggerFrom(".ppl4", 2, {autoAlpha: 0, x: 300, ease:Elastic.easeIn})
+    .staggerFrom(".ppl5", 2.5, {autoAlpha: 0, x: -300, ease:Elastic.easeIn});
 
 var controller = new ScrollMagic.Controller();
 
