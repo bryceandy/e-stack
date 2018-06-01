@@ -66,7 +66,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd1",
     triggerHook: "#servicesTitle",
-    offset: 60
+    offset: 90
 })
     .setTween(TweenMax.to("#wwd1", 0.1, {autoAlpha: 0}))
     .addTo(controller);
