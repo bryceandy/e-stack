@@ -183,7 +183,7 @@ body{
 }
 #wwd2{
     position: absolute;
-    top: 100vh;
+    top: 110vh;
     left: 5vw;
     font-size: 1.8rem;
     color: #000;
@@ -193,7 +193,7 @@ body{
     color: #fff;
     text-align: center;
     position: absolute;
-    top: 110vh;
+    top: 120vh;
     left: 5vw;
     font-size: 1.3rem;
     height: 40vh;
@@ -204,7 +204,7 @@ body{
 }
 #wwd3{
     position: absolute;
-    top: 160vh;
+    top: 170vh;
     left: 5vw;
     font-size: 1.8rem;
     color: #000;
@@ -214,7 +214,7 @@ body{
     color: #fff;
     text-align: center;
     position: absolute;
-    top: 170vh;
+    top: 180vh;
     left: 5vw;
     font-size: 1.3rem;
     height: 40vh;
