@@ -167,3 +167,14 @@ body{
     font-size: 1.8rem;
     color: #000;
 }
+#wwd1Details{
+    background: var(--color-1);
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    font-size: 1.5rem;
+    height: 40vh;
+    width: 65vw;
+}
