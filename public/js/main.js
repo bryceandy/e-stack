@@ -79,11 +79,11 @@ var typer6 = new TypeIt('#contactTitle', {
     .type('tay In Touch');
 
 var stagg = new TimelineMax();
-stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -300, ease:Elastic.easeIn})
-    .staggerFrom(".ppl2", 1, {autoAlpha: 0, x: 300, ease:Elastic.easeIn})
-    .staggerFrom(".ppl3", 1.5, {autoAlpha: 0, x: -300, ease:Elastic.easeIn})
-    .staggerFrom(".ppl4", 2, {autoAlpha: 0, x: 300, ease:Elastic.easeIn})
-    .staggerFrom(".ppl5", 2.5, {autoAlpha: 0, x: -300, ease:Elastic.easeIn});
+stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -100, ease:Back.easeOut})
+    .staggerFrom(".ppl2", 1, {autoAlpha: 0, x: 200, ease:Back.easeOut})
+    .staggerFrom(".ppl3", 1.5, {autoAlpha: 0, x: -300, ease:Back.easeOut})
+    .staggerFrom(".ppl4", 2, {autoAlpha: 0, x: 400, ease:Back.easeOut})
+    .staggerFrom(".ppl5", 2.5, {autoAlpha: 0, x: -500, ease:Back.easeOut});
 
 var controller = new ScrollMagic.Controller();
 
