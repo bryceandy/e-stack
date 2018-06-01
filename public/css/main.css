@@ -163,7 +163,7 @@ body{
     position: absolute;
     top: 20vh;
     right: 5vw;
-    width: 50vw;
+    width: 35vw;
     text-align: right;
     font-size: 0.8rem;
     color: var(--color-2);
@@ -172,6 +172,7 @@ body{
     position: absolute;
     top: 20vh;
     left: 5vw;
+    width: 30vw;
     color: var(--color-2);
     font-size: 2.8rem;
     text-align: left;

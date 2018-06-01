@@ -20,9 +20,7 @@ var typer = new TypeIt('.goal', {
     .break()
     .type('consulting services to Tanzania’s organizations')
     .break()
-    .type('protecting inforrmati')
-    .delete(5)
-    .type('mation against cyber attackers.')
+    .type('protecting information against cyber attackers.')
     .pause(5000)
     .options({speed: 10})
     .delete()
@@ -35,28 +33,16 @@ var typer2 = new TypeIt('#wwd1', {
     speed: 120,
     autoStart: false
 })
-    .type('Information Security Trainging')
-    .options({speed: 300})
-    .delete(4)
-    .options({speed: 150})
-    .type('ing');
+    .type('Information Security Training');
 
 var typer3 = new TypeIt('#wwd2', {
-    speed: 150,
+    speed: 250,
     autoStart: false
 })
-    .type('Consulting')
-    .options({speed: 300})
-    .delete(3)
-    .options({speed: 150})
-    .type('ant')
-    .options({speed: 300})
-    .delete(3)
-    .options({speed: 200})
-    .type('ancy');
+    .type('Consultancy');
 
 var typer4 = new TypeIt('#wwd3', {
-    speed: 200,
+    speed: 220,
     autoStart: false,
     lifeLike: true
 })
@@ -66,17 +52,13 @@ var typer5 = new TypeIt('#aboutPeople', {
     speed: 250,
     autoStart: false
 })
-    .type('Our peeple')
-    .delete(4)
-    .type('ople include...');
+    .type('Our people include...');
 
 var typer6 = new TypeIt('#contactTitle', {
     speed: 250,
     autoStart: false
 })
-    .type('Feel Free To Sleep In T')
-    .delete(9)
-    .type('tay In Touch');
+    .type('Feel Free To Get In Touch');
 
 var stagg = new TimelineMax();
 stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -100, ease:Back.easeOut})
