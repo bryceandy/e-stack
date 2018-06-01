@@ -181,7 +181,28 @@ body{
     padding-right: 5vw;
     width: auto;
 }
-#wwd1Details button{
+#wwd2{
+    position: absolute;
+    top: 140vh;
+    left: 5vw;
+    font-size: 1.8rem;
+    color: #000;
+}
+#wwd2Details{
+    background: var(--color-1);
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 150vh;
+    left: 5vw;
+    font-size: 1.3rem;
+    height: 40vh;
+    padding-top: 2.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: auto;
+}
+#wwd1Details button, #wwd2Details button{
     cursor: pointer;
     border: none;
     background: #000;
@@ -191,11 +212,11 @@ body{
     float: left;
     transition:background 0.1s cubic-bezier(.75,-0.5,0,1.75);
 }
-#wwd1Details button:hover{
+#wwd1Details button:hover, #wwd2Details button:hover{
     background: #fff;
     color: #000;
 }
-.trainingbtn{
+.trainingbtn, .consultbtn{
     font-size: small;
     vertical-align: middle;
 }
