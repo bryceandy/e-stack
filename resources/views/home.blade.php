@@ -100,6 +100,17 @@
 
             <button onclick="location.href='services/consultancy'"><span class="consultbtn">CONSULTANCY</span></button>
         </div>
+
+        <div id="wwd2"></div>
+        <div id="wwd2Details">
+
+            eStack team provides Managed Security Services to organizations<br />
+            that do not have human resources to carry out info-security operations.<br />
+            eStack is able to protect the client’s environment while observing<br />
+            confidentiality of the organization’s information.<br /><br />
+
+            <button onclick="location.href='services/consultancy'"><span class="managbtn">MANAGED SECURITY</span></button>
+        </div>
     </div>
 
 </div>
