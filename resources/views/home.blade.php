@@ -72,8 +72,8 @@
 
             <i>eStack</i> was established to respond to the challenges<br />
             in the Information Security Industry in Tanzania, where<br />
-            there's lack of adequate skills in protecting organizations<br />
-            from potential cyber-attacks.
+            there's lack of adequate skills in protecting many<br />
+            organizations from potential cyber-attacks.
 
         </div>
 
@@ -120,8 +120,16 @@
         <div id="aboutBrief">
             <i>eStack</i> believes in utilizing global experience and expertise in solving<br />
               our customer’s problems. We employ local staff, and partner with<br />
-              international top notch Systems & Security specialist to deliver<br />
-              top class service to our customers.
+              international top notch Systems & Security specialist to deliver top<br />
+              class service to our customers.
+        </div>
+        <div id="aboutPeople"></div>
+        <div id="aboutList">
+            <span class="ppl1">Senior Systems Engineers</span>
+            <span class="ppl2">System Developers</span>
+            <span class="ppl3">Systems Security Specialists</span>
+            <span class="ppl4">Senior Network Specialists</span>
+            <span class="ppl5">Technology Trainers</span>
         </div>
     </div>
 

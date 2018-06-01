@@ -270,3 +270,23 @@ body{
 #aboutBrief i{
     color: var(--color-2);
 }
+#aboutPeople{
+    position: absolute;
+    top: 60vh;
+    right: 5vw;
+    text-align: right;
+    font-size: 2.8rem;
+    color: #fff;
+}
+#aboutList{
+    position: absolute;
+    top: 75vh;
+    left: 37.5vw;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+.ppl1, .ppl2, .ppl3, .ppl4, .ppl5{
+    color: var(--color-2);
+    text-align: center;
+    font-size: 1.2rem;
+}

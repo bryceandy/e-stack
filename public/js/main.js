@@ -65,6 +65,21 @@ var typer4 = new TypeIt('#wwd3', {
 })
     .type('Managed Security');
 
+var typer5 = new TypeIt('#aboutPeople', {
+    speed: 250,
+    autoStart: false
+})
+    .type('Our peeple')
+    .delete(4)
+    .type('ople include...');
+
+var stagg = new TimelineMax();
+stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn})
+    .staggerFrom(".ppl2", 0.5, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
+    .staggerFrom(".ppl3", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn})
+    .staggerFrom(".ppl4", 0.5, {autoAlpha: 0, x: 200, ease:Power1.easeIn})
+    .staggerFrom(".ppl5", 0.5, {autoAlpha: 0, x: -200, ease:Power1.easeIn});
+
 var controller = new ScrollMagic.Controller();
 
 new ScrollMagic.Scene({
@@ -149,6 +164,14 @@ new ScrollMagic.Scene({
     triggerHook: "onEnter"
 })
     .setTween(TweenMax.from("#aboutBrief", 0.5, {autoAlpha: 0, y: 400, ease: Power1.easeIn}))
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#aboutList",
+    triggerHook: "onEnter",
+    offset: 50
+})
+    .setTween(stagg)
     .addTo(controller);
 
 
