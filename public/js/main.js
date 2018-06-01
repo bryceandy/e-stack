@@ -144,5 +144,12 @@ new ScrollMagic.Scene({
     .setTween(TweenMax.to("#wwd3Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
 
+new ScrollMagic.Scene({
+    triggerElement: "#aboutBrief",
+    triggerHook: "onEnter"
+})
+    .setTween(TweenMax.from("#aboutBrief", 0.5, {autoAlpha: 0, y: 400, ease: Power1.easeIn}))
+    .addTo(controller);
+
 
 

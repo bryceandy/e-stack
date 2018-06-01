@@ -123,20 +123,6 @@ body{
     grid-area: 3/1/4/2;
     background-color: #000;
 }
-#aboutus::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url('../images/Amani-Place.jpg');
-    background-size: 75vw 105.7143vh;
-    background-repeat: no-repeat;
-    background-position: right 0 top 14.2857vh;
-    z-index: -1;
-    opacity: 0.5;
-}
 #companyTitle{
     font-size: 2.8rem;
     position: absolute;
@@ -260,4 +246,22 @@ body{
 .trainingbtn, .consultbtn, .managbtn{
     font-size: small;
     vertical-align: middle;
+}
+#aboutus img{
+    position: absolute;
+    top: 14.2857vh;
+    right: 0;
+    height: 105.7143vh;
+    width: 75vw;
+    z-index: -1;
+    opacity: 0.5;
+}
+#aboutBrief{
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    font-size: 1.2rem;
+    color: var(--color-1);
+    text-align: left;
+    z-index: 1;
 }

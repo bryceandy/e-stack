@@ -115,6 +115,13 @@
 
     <div id="aboutus">
 
+        <img src="/images/Amani-Place.jpg"/>
+
+        <div id="aboutBrief">
+            eStack believes in utilizing global experience and expertise in solving our customer’s problems. We employ local
+            staff, and partner with International top notch Systems and Security specialist to deliver top class service to our
+            customers
+        </div>
     </div>
 
 </div>
