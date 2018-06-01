@@ -39,7 +39,7 @@ var typer2 = new TypeIt('#wwd1', {
     autoStart: false
 })
     .type('Information Security Trainging')
-    .options({speed: 200})
+    .options({speed: 300})
     .delete(4)
     .options({speed: 150})
     .type('ing');
@@ -49,11 +49,11 @@ var typer3 = new TypeIt('#wwd2', {
     autoStart: false
 })
     .type('Consulting')
-    .options({speed: 250})
+    .options({speed: 300})
     .delete(3)
     .options({speed: 150})
     .type('ant')
-    .options({speed: 250})
+    .options({speed: 300})
     .delete(3)
     .options({speed: 200})
     .type('ancy');
