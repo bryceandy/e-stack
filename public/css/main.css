@@ -176,8 +176,10 @@ body{
     left: 5vw;
     font-size: 1.3rem;
     height: 40vh;
-    width: 65vw;
     padding-top: 2.5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: auto;
 }
 #wwd1Details button{
     cursor: pointer;
@@ -187,7 +189,7 @@ body{
     padding-left: 2.5vw; padding-right: 2.5vw;
     font-size: xx-large;
     float: left;
-    margin-left: 10vw;
+    margin-left: 5vw;
 }
 .trainingbtn{
     font-size: small;
