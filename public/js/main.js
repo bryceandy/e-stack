@@ -64,7 +64,8 @@ new ScrollMagic.Scene({
     .addTo(controller);
 
 new ScrollMagic.Scene({
-    triggerElement: "#companyBrief"
+    triggerElement: "#companyBrief",
+    triggerHook: "onCenter"
 })
     .setTween(TweenMax.to("#companyBrief", 0.5, {autoAlpha: 0, y: 300}))
     .addTo(controller);
