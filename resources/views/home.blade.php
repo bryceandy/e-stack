@@ -192,7 +192,7 @@
                     $('#contact').addClass('changeContact');
                     $('#header').addClass('changeHeader');
                 }
-                if ($(this).scrollTop() < $contacttop) {
+                if (($(this).scrollTop() < $contacttop) && ($(this).scrollTop() > $servicesbottom)){
                     $('#contact').removeClass('changeContact');
                     $('#header').removeClass('changeHeader');
                 }
