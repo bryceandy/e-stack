@@ -143,3 +143,12 @@ body{
 .introbtntxt{
     font-size: small; color: #fff; vertical-align: middle;
 }
+#companyBrief{
+    position: absolute;
+    top: 86vh;
+    right: 5vw;
+    width: 65vw;
+    text-align: right;
+    font-size: 1.4rem;
+    color: var(--color-1);
+}

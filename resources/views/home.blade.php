@@ -63,6 +63,15 @@
         </div>
 
         <button id="introButton"><span class="introbtntxt">DISCOVER MORE</span></button>
+
+        <div id="companyBrief">
+
+            <i>eStack</i> was established to respond to the challenges<br />
+            in the Information Security Industry in Tanzania, whereby<br />
+            there's lack of adequate skills in protecting organizations<br />
+            from potential cyber-attacks.
+
+        </div>
     </div>
 
     <div id="eservices">
