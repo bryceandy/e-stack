@@ -52,7 +52,7 @@ var typer5 = new TypeIt('#aboutPeople', {
     speed: 250,
     autoStart: false
 })
-    .type('Our team include...');
+    .type('Our team includes...');
 
 var typer6 = new TypeIt('#contactTitle', {
     speed: 250,
