@@ -121,7 +121,7 @@ body{
 #aboutus{
     position: relative;
     grid-area: 3/1/4/2;
-    background: #000;
+    background-color: #000;
 }
 #aboutus::after{
     content: '';
@@ -130,7 +130,7 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
-    background: #000 url('../images/Amani-Place.jpg');
+    background: url('../images/Amani-Place.jpg');
     background-size: 75vw 105.7143vh;
     background-repeat: no-repeat;
     background-position: right 0 top 14.2857vh;
