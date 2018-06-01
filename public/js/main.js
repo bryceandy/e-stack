@@ -16,7 +16,7 @@ var typer = new TypeIt('.goal', {
     .options({speed: 10})
     .delete()
     .options({speed: 90})
-    .type('Providing affordable technical assistance and')
+    .type('Providing affordable technical assistance &')
     .break()
     .type('consulting services to Tanzania’s organizations')
     .break()
