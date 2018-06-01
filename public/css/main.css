@@ -301,10 +301,23 @@ body{
     height: 85.714vh;
     width: 75vw;
 }
-#contactTitle{
+#contactBody{
     position: absolute;
     top: 30vh;
     left: 5vw;
+    font-size: 1.4rem;
+    color: var(--color-1);
+    text-align: left;
+}
+.contactTitle{
     font-size: 2.8rem;
     color: var(--color-2);
+    text-align: center;
+}
+#contactTitle{
+    position: absolute;
+    bottom: 10vh;
+    right: 5vw;
+    font-size: 3rem;
+    color: #fff;
 }
