@@ -141,7 +141,8 @@
         $servicestop = parseInt(window.innerHeight * 1.05) ;
         $servicesbottom = parseInt(window.innerHeight * 3.25) ;
         $abouttop = parseInt(window.innerHeight * 3.3) ;
-        $aboutbottom = parseInt(window.innerHeight * 4.3) ;
+        $aboutbottom = parseInt(window.innerHeight * 4.5) ;
+        $contacttop = parseInt(window.innerHeight * 4.51) ;
 
         $(window).scroll(function () {
                 if ($(this).scrollTop() > $servicestop) {
@@ -165,6 +166,13 @@
                 }
                 if ($(this).scrollTop() < $abouttop) {
                     $('#about').removeClass('changeAbout');
+                }
+
+                if ($(this).scrollTop() > $contacttop) {
+                    $('#contact').addClass('changeContact');
+                }
+                if ($(this).scrollTop() < $contacttop) {
+                    $('#contact').removeClass('changeContact');
                 }
         });
 
