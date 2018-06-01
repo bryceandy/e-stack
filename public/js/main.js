@@ -77,4 +77,18 @@ new ScrollMagic.Scene({
     .setTween(TweenMax.to("#wwd1Details", 0.1, {autoAlpha: 0}))
     .addTo(controller);
 
+new ScrollMagic.Scene({
+    triggerElement: "#eservices",
+    triggerHook: "onLeave"
+})
+    .setPin("#wwd1")
+    .addTo(controller);
+
+new ScrollMagic.Scene({
+    triggerElement: "#eservices",
+    triggerHook: "onLeave"
+})
+    .setPin("#companyBrief")
+    .addTo(controller);
+
 
