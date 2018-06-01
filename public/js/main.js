@@ -46,6 +46,21 @@ var typer2 = new TypeIt('#wwd1', {
     .options({speed: 150})
     .type('ing');
 
+var typer3 = new TypeIt('#wwd2', {
+    speed: 150,
+    autoStart: false,
+    lifeLike: true
+})
+    .type('Consulting')
+    .options({speed: 250})
+    .delete(3)
+    .options({speed: 150})
+    .type('ant')
+    .options({speed: 250})
+    .delete(3)
+    .options({speed: 200})
+    .type('ancy');
+
 var controller = new ScrollMagic.Controller();
 
 new ScrollMagic.Scene({
@@ -68,7 +83,7 @@ new ScrollMagic.Scene({
     triggerHook: "#servicesTitle",
     offset: 80
 })
-    .setTween(TweenMax.to("#wwd1", 0.1, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .setTween(TweenMax.to("#wwd1", 0.2, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -76,7 +91,7 @@ new ScrollMagic.Scene({
     triggerHook: "#servicesTitle",
     offset: 50
 })
-    .setTween(TweenMax.to("#wwd1Details", 0.1, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .setTween(TweenMax.to("#wwd1Details", 0.2, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -98,7 +113,7 @@ new ScrollMagic.Scene({
     triggerHook: "#servicesTitle",
     offset: 80
 })
-    .setTween(TweenMax.to("#wwd2", 0.1, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .setTween(TweenMax.to("#wwd2", 0.2, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -106,7 +121,7 @@ new ScrollMagic.Scene({
     triggerHook: "#servicesTitle",
     offset: 50
 })
-    .setTween(TweenMax.to("#wwd2Details", 0.1, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .setTween(TweenMax.to("#wwd2Details", 0.2, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     .addTo(controller);
 
 

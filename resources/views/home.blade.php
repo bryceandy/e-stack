@@ -94,7 +94,7 @@
         <div id="wwd2"></div>
         <div id="wwd2Details">
             With more than 30 years of combined experience in Banking and<br />
-            Financial Institution, Internet Service Providers and Government<br />,
+            Financial Institution, Internet Service Providers and Government,<br />
             eStack is using its experience in improving the security of different<br />
             firms in Tanzania by providing Information Security Consultancy.<br /><br />
 
