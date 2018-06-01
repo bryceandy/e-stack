@@ -8,7 +8,9 @@ $("#introButton").click(function(){
 
 var typer = new TypeIt('.goal', {
     speed: 100,
-    autoStart: true
+    autoStart: true,
+    loop: true,
+    lifeLike: true
 })
     .type('Bridge skills gap in the Info-Security Industry')
     .break()
@@ -19,18 +21,18 @@ var typer = new TypeIt('.goal', {
     .options({speed: 10})
     .delete()
     .options({speed: 100})
-    .type('Providing affordable technical assistance and...')
+    .type('Providing affordable technical assistance and')
     .break()
     .type('consulting services to Tanzania’s organizations')
     .break()
-    .type('protecting inforrmation against cyber attackers')
+    .type('protecting inforrmation against cyber attackers.')
     .pause(5000)
     .options({speed: 10})
     .delete()
     .options({speed: 100})
     .type('Providing security tools, commercial & custom built')
     .break()
-    .type('required in protecting information infrastructure');
+    .type('required in protecting information infrastructures.');
 
 var controller = new ScrollMagic.Controller();
 
