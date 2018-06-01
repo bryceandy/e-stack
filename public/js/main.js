@@ -7,7 +7,7 @@ $("#introButton").click(function(){
 });
 
 var typer = new TypeIt('.goal', {
-    speed: 25,
+    speed: 10,
     autoStart: true
 })
     .type('Bridge skills gap in the Info-Security Industry')
@@ -15,19 +15,19 @@ var typer = new TypeIt('.goal', {
     .type('by providing training and mentorship for both')
     .break()
     .type('technical experts and organisations in Tanzania.')
-    .pause(2000)
-    .options({speed: 700})
+    .pause(5000)
+    .options({speed: 7000})
     .delete()
-    .options({speed: 50})
+    .options({speed: 10})
     .type('Providing affordable technical assistance and...')
     .break()
     .type('consulting services to Tanzania’s organizations')
     .break()
     .type('protecting inforrmation against cyber attackers')
-    .pause(2000)
-    .options({speed: 700})
+    .pause(5000)
+    .options({speed: 7000})
     .delete()
-    .options({speed: 25})
+    .options({speed: 10})
     .type('Providing security tools, commercial & custom built')
     .break()
     .type('required in protecting information infrastructure');
