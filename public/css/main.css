@@ -121,6 +121,7 @@ body{
 #aboutus{
     position: relative;
     grid-area: 3/1/4/2;
+    background: #000;
 }
 #aboutus::after{
     content: '';
