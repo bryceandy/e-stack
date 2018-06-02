@@ -60,8 +60,8 @@ var typer6 = new TypeIt('#contactTitle', {
 })
     .type('Feel Free To Get In Touch');
 
-var qtr = window.innerHeight * .25;
-var qtr2 = (window.innerHeight * .25) - 30;
+var qtr = window.innerHeight * .5;
+var qtr2 = (window.innerHeight * .5) - 30;
 
 var stagg = new TimelineMax();
 stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -100, ease:Back.easeOut})
