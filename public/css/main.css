@@ -170,7 +170,7 @@ body{
 }
 #servicesTitle{
     position: absolute;
-    top: 20vh;
+    top: 17vh;
     left: 5vw;
     width: 30vw;
     color: var(--color-2);
