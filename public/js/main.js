@@ -90,7 +90,7 @@ new ScrollMagic.Scene({
     offset: 90
 })
     .setTween(TweenMax.to("#wwd1", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "training indicator", colorEnd: "red"})
+    .addIndicators({name: "training indicator2", colorEnd: "red"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -99,6 +99,7 @@ new ScrollMagic.Scene({
     offset: 50
 })
     .setTween(TweenMax.to("#wwd1Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .addIndicators({name: "training indicator", colorEnd: "green"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
