@@ -140,7 +140,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd3",
     triggerHook: "#servicesTitle",
-    offset: qtr
+    offset: hlf
 })
     .setTween(TweenMax.to("#wwd3", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     /*.addIndicators({name: "manage1", colorStart: "green"})*/
@@ -149,7 +149,7 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd3Details",
     triggerHook: "#servicesTitle",
-    offset: qtr2
+    offset: hlf2
 })
     .setTween(TweenMax.to("#wwd3Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
     /*.addIndicators({name: "manage2", colorStart: "green"})*/

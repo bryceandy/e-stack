@@ -245,15 +245,16 @@ body{
 #wwd1Details button, #wwd2Details button, #wwd3Details button{
     cursor: pointer;
     border: none;
-    background: #000;
-    color: var(--color-3);
+    background: var(--color-3);
+    color: #000;
     padding-left: 2.5vw; padding-right: 2.5vw;
     font-size: xx-large;
     float: left;
-    transition:background 0.1s cubic-bezier(.75,-0.5,0,1.75);
+    transition:background 0.25s cubic-bezier(.75,-0.5,0,1.75);
 }
 #wwd1Details button:hover, #wwd2Details button:hover, #wwd3Details button:hover{
-    color: var(--color-2);
+    background: #000;
+    color: var(--color-3);
 }
 .trainingbtn, .consultbtn, .managbtn{
     font-size: small;
