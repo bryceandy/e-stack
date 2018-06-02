@@ -90,7 +90,7 @@ new ScrollMagic.Scene({
     offset: 90
 })
     .setTween(TweenMax.to("#wwd1", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "training1", colorEnd: "red"})
+    .addIndicators({name: "training1", colorStart: "red"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -99,7 +99,7 @@ new ScrollMagic.Scene({
     offset: 50
 })
     .setTween(TweenMax.to("#wwd1Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "training2", colorEnd: "red"})
+    .addIndicators({name: "training2", colorStart: "red"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -122,6 +122,7 @@ new ScrollMagic.Scene({
     offset: 110
 })
     .setTween(TweenMax.to("#wwd2", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .addIndicators({name: "consul1", colorStart: "yellow"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -130,6 +131,7 @@ new ScrollMagic.Scene({
     offset: 80
 })
     .setTween(TweenMax.to("#wwd2Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .addIndicators({name: "consul2", colorStart: "yellow"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -138,6 +140,7 @@ new ScrollMagic.Scene({
     offset: 110
 })
     .setTween(TweenMax.to("#wwd3", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .addIndicators({name: "manage1", colorStart: "green"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -146,6 +149,7 @@ new ScrollMagic.Scene({
     offset: 80
 })
     .setTween(TweenMax.to("#wwd3Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
+    .addIndicators({name: "manage2", colorStart: "green"})
     .addTo(controller);
 
 new ScrollMagic.Scene({
