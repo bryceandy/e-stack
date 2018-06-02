@@ -43,7 +43,7 @@ body{
     transition: color 1s;
 }
 #header.changeHeader{
-    color: var(--color-3);
+    /*color: var(--color-3);*/
 }
 .moto{
     position: absolute;
@@ -183,7 +183,7 @@ body{
     top: 40vh;
     left: 5vw;
     font-size: 1.8rem;
-    color: var(--color-3);
+    color: #000;
 }
 #wwd1Details{
     background: var(--color-1);
@@ -204,7 +204,7 @@ body{
     top: 110vh;
     left: 5vw;
     font-size: 1.8rem;
-    color: var(--color-3);
+    color: #000;
 }
 #wwd2Details{
     background: var(--color-1);
@@ -225,7 +225,7 @@ body{
     top: 170vh;
     left: 5vw;
     font-size: 1.8rem;
-    color: var(--color-3);
+    color: #000;
 }
 #wwd3Details{
     background: var(--color-1);
@@ -244,8 +244,8 @@ body{
 #wwd1Details button, #wwd2Details button, #wwd3Details button{
     cursor: pointer;
     border: none;
-    background: var(--color-3);
-    color: #fff;
+    background: var(--color-2);
+    color: #000;
     padding-left: 2.5vw; padding-right: 2.5vw;
     font-size: xx-large;
     float: left;
@@ -253,7 +253,6 @@ body{
 }
 #wwd1Details button:hover, #wwd2Details button:hover, #wwd3Details button:hover{
     background: #fff;
-    color: var(--color-3);
 }
 .trainingbtn, .consultbtn, .managbtn{
     font-size: small;
@@ -327,7 +326,7 @@ body{
     bottom: 8vh;
     right: 5vw;
     font-size: 3rem;
-    color: #000;
+    color: #fff;
 }
 .left{
     position: absolute;
