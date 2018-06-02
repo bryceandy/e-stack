@@ -1,7 +1,7 @@
 :root{
     --color-1: #f4645f;
     --color-2: darkgrey;
-    --color-3: #000;
+    --color-3: #fff;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -29,7 +29,7 @@ body{
     width: 5vw;
 }
 #header{
-    color: #fff;
+    color: #000;
     position: absolute;
     top: 0;
     right: 5vw;
@@ -146,7 +146,7 @@ body{
 }
 .goal{
     font-size: 2rem;
-    color: #fff;
+    color: #000;
     width: 65vw;
 }
 #introButton{
@@ -288,7 +288,7 @@ body{
     right: 5vw;
     text-align: right;
     font-size: 2.8rem;
-    color: #fff;
+    color: #000;
 }
 #aboutList{
     position: absolute;
@@ -327,7 +327,7 @@ body{
     bottom: 8vh;
     right: 5vw;
     font-size: 3rem;
-    color: #fff;
+    color: #000;
 }
 .left{
     position: absolute;
@@ -335,7 +335,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    color: #e1e1e1;
+    color: var(--color-2);
     font-size: small;
 }
 .right{
@@ -344,7 +344,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-    color: #e1e1e1;
+    color: var(--color-2);
     font-size: small;
 }
 .right a{
@@ -352,5 +352,5 @@ body{
     color: var(--color-2);
 }
 .right a:hover{
-    color: #fff;
+    color: #000;
 }
