@@ -1,6 +1,7 @@
 :root{
     --color-1: #f4645f;
     --color-2: darkgrey;
+    --color-3: #000;
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -15,7 +16,7 @@
     display: none;
 }
 body{
-    background-color: #000;
+    background-color: var(--color-3);
     font-size: 16px;
     overflow-x: hidden;
     font-family: "Poppins";
@@ -42,7 +43,7 @@ body{
     transition: color 1s;
 }
 #header.changeHeader{
-    color: #000;
+    color: var(--color-3);
 }
 .moto{
     position: absolute;
@@ -90,7 +91,7 @@ body{
 }
 #services:hover, #about:hover, #contact:hover{
     background-color: var(--color-1);
-    color: #000;
+    color: var(--color-3);
 }
 #services.changeServices, #about.changeAbout, #contact.changeContact{
     color: var(--color-1);
@@ -111,7 +112,7 @@ body{
 #intro{
     position: relative;
     grid-area: 1/1/2/2;
-    background-color: #000;
+    background-color: var(--color-3);
 }
 #eservices{
     position: relative;
@@ -121,7 +122,7 @@ body{
 #aboutus{
     position: relative;
     grid-area: 3/1/4/2;
-    background-color: #000;
+    background-color: var(--color-3);
 }
 #contactus{
     position: relative;
@@ -131,7 +132,7 @@ body{
     position: relative;
     grid-area: 5/1/6/2;
     border-top: 1px solid var(--color-2);
-    background: #000;
+    background: var(--color-3);
 }
 #companyTitle{
     font-size: 2.8rem;
@@ -182,7 +183,7 @@ body{
     top: 40vh;
     left: 5vw;
     font-size: 1.8rem;
-    color: #000;
+    color: var(--color-3);
 }
 #wwd1Details{
     background: var(--color-1);
@@ -203,7 +204,7 @@ body{
     top: 110vh;
     left: 5vw;
     font-size: 1.8rem;
-    color: #000;
+    color: var(--color-3);
 }
 #wwd2Details{
     background: var(--color-1);
@@ -224,7 +225,7 @@ body{
     top: 170vh;
     left: 5vw;
     font-size: 1.8rem;
-    color: #000;
+    color: var(--color-3);
 }
 #wwd3Details{
     background: var(--color-1);
@@ -243,7 +244,7 @@ body{
 #wwd1Details button, #wwd2Details button, #wwd3Details button{
     cursor: pointer;
     border: none;
-    background: #000;
+    background: var(--color-3);
     color: #fff;
     padding-left: 2.5vw; padding-right: 2.5vw;
     font-size: xx-large;
@@ -252,7 +253,7 @@ body{
 }
 #wwd1Details button:hover, #wwd2Details button:hover, #wwd3Details button:hover{
     background: #fff;
-    color: #000;
+    color: var(--color-3);
 }
 .trainingbtn, .consultbtn, .managbtn{
     font-size: small;
@@ -276,7 +277,7 @@ body{
     z-index: 1;
 }
 #companyBrief i{
-    color: #000;
+    color: var(--color-3);
 }
 #aboutBrief i{
     color: var(--color-2);

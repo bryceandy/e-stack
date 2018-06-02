@@ -60,8 +60,8 @@ var typer6 = new TypeIt('#contactTitle', {
 })
     .type('Feel Free To Get In Touch');
 
-var qtr = window.innerHeight * .5;
-var qtr2 = (window.innerHeight * .5) - 30;
+var hlf = window.innerHeight * .5;
+var hlf2 = (window.innerHeight * .5) - 30;
 
 var stagg = new TimelineMax();
 stagg.staggerFrom(".ppl1", 0.5, {autoAlpha: 0, x: -100, ease:Back.easeOut})
@@ -90,19 +90,19 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd1",
     triggerHook: "#servicesTitle",
-    offset: qtr
+    offset: hlf
 })
     .setTween(TweenMax.to("#wwd1", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "training1", colorStart: "red"})
+    /*.addIndicators({name: "training1", colorStart: "red"})*/
     .addTo(controller);
 
 new ScrollMagic.Scene({
     triggerElement: "#wwd1Details",
     triggerHook: "#servicesTitle",
-    offset: qtr2
+    offset: hlf2
 })
     .setTween(TweenMax.to("#wwd1Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "training2", colorStart: "red"})
+    /*.addIndicators({name: "training2", colorStart: "red"})*/
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -122,19 +122,19 @@ new ScrollMagic.Scene({
 new ScrollMagic.Scene({
     triggerElement: "#wwd2",
     triggerHook: "#servicesTitle",
-    offset: qtr
+    offset: hlf
 })
     .setTween(TweenMax.to("#wwd2", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "consul1", colorStart: "yellow"})
+    /*.addIndicators({name: "consul1", colorStart: "yellow"})*/
     .addTo(controller);
 
 new ScrollMagic.Scene({
     triggerElement: "#wwd2Details",
     triggerHook: "#servicesTitle",
-    offset: qtr2
+    offset: hlf2
 })
     .setTween(TweenMax.to("#wwd2Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "consul2", colorStart: "yellow"})
+    /*.addIndicators({name: "consul2", colorStart: "yellow"})*/
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -143,7 +143,7 @@ new ScrollMagic.Scene({
     offset: qtr
 })
     .setTween(TweenMax.to("#wwd3", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "manage1", colorStart: "green"})
+    /*.addIndicators({name: "manage1", colorStart: "green"})*/
     .addTo(controller);
 
 new ScrollMagic.Scene({
@@ -152,7 +152,7 @@ new ScrollMagic.Scene({
     offset: qtr2
 })
     .setTween(TweenMax.to("#wwd3Details", 0.3, {autoAlpha: 0, x: 300, ease: Back.easeIn}))
-    .addIndicators({name: "manage2", colorStart: "green"})
+    /*.addIndicators({name: "manage2", colorStart: "green"})*/
     .addTo(controller);
 
 new ScrollMagic.Scene({
