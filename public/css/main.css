@@ -186,40 +186,12 @@ body{
     font-size: 1.8rem;
     color: #000;
 }
-#wwd1Details{
-    background: var(--color-1);
-    color: #fff;
-    text-align: left;
-    position: absolute;
-    top: 50vh;
-    left: 5vw;
-    font-size: 1.3rem;
-    height: 35vh;
-    padding-top: 2.5vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    width: auto;
-}
 #wwd2{
     position: absolute;
     top: 110vh;
     left: 5vw;
     font-size: 1.8rem;
     color: #000;
-}
-#wwd2Details{
-    background: var(--color-1);
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    top: 120vh;
-    left: 5vw;
-    font-size: 1.3rem;
-    height: 40vh;
-    padding-top: 2.5vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    width: auto;
 }
 #wwd3{
     position: absolute;
@@ -228,18 +200,27 @@ body{
     font-size: 1.8rem;
     color: #000;
 }
+#wwd1Details{
+    top: 50vh;
+}
+#wwd2Details{
+    top: 120vh;
+}
 #wwd3Details{
+    top: 180vh;
+}
+#wwd1Details, #wwd2Details, #wwd3Details{
     background: var(--color-1);
     color: #fff;
-    text-align: center;
+    text-align: left;
     position: absolute;
-    top: 180vh;
     left: 5vw;
     font-size: 1.3rem;
-    height: 40vh;
+    height: auto;
     padding-top: 2.5vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-bottom: 2.5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     width: auto;
 }
 #wwd1Details button, #wwd2Details button, #wwd3Details button{

@@ -91,10 +91,9 @@
 
         <div id="wwd2"></div>
         <div id="wwd2Details">
-            With more than 30 years of combined experience in Banking and<br />
-            Financial Institution, Internet Service Providers and Government,<br />
-            eStack is using its experience in improving the security of <br />
-            firms in Tanzania by providing Information Security Consultancy.<br /><br />
+            With our experience in banking, financial institutions, ISPs &amp;<br />
+            government organisations, eStack improves the security of firms in<br />
+            Tanzania by providing quality Information Security Consultancy.<br /><br />
 
             <button onclick="location.href='services/consultancy'"><span class="consultbtn">CONSULTANCY</span></button>
         </div>
@@ -102,10 +101,9 @@
         <div id="wwd3"></div>
         <div id="wwd3Details">
 
-            eStack team provides Managed Security Services to organizations<br />
-            that do not have human resources to carry out info-security operations.<br />
-            eStack is able to protect the client’s environment while observing<br />
-            confidentiality of the organization’s information.<br /><br />
+            eStack provides Managed Security Services to organizations that do<br />
+            not carry out info-security operations. We protect the client’s environment<br />
+            while observing confidentiality of the organization’s information.<br /><br />
 
             <button onclick="location.href='services/managed-security'"><span class="managbtn">MANAGED SECURITY</span></button>
         </div>
