@@ -367,4 +367,22 @@ body{
     #introText{
         top: 35vh;
     }
+    #companyTitle, #servicesTitle, .contactTitle, #contactTitle, #aboutPeople{
+        font-size: 2.4rem;
+    }
+    #servicesTitle{
+        width: 25vw;
+    }
+    #companyBrief{
+        width: 40vw;
+    }
+    #wwd1, #wwd2, #wwd3{
+        font-size: 1.6rem;
+    }
+    #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief{
+        font-size: 1.1rem;
+    }
+    #wwd1Details button, #wwd2Details button, #wwd3Details button{
+        font-size: x-large;
+    }
 }
