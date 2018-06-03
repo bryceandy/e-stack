@@ -179,26 +179,20 @@ body{
     font-size: 2.8rem;
     text-align: left;
 }
-#wwd1{
+#wwd1, #wwd2, #wwd3{
     position: absolute;
-    top: 40vh;
     left: 5vw;
     font-size: 1.8rem;
     color: #000;
+}
+#wwd1{
+    top: 40vh;
 }
 #wwd2{
-    position: absolute;
     top: 110vh;
-    left: 5vw;
-    font-size: 1.8rem;
-    color: #000;
 }
 #wwd3{
-    position: absolute;
     top: 170vh;
-    left: 5vw;
-    font-size: 1.8rem;
-    color: #000;
 }
 #wwd1Details{
     top: 50vh;
@@ -259,7 +253,7 @@ body{
     z-index: 1;
 }
 #companyBrief i{
-    color: var(--color-3);
+    color: #000;
 }
 #aboutBrief i{
     color: var(--color-2);
@@ -335,4 +329,34 @@ body{
 }
 .right a:hover{
     color: #000;
+}
+
+@media screen and (min-width: 1450px){
+    body{
+        font-size: 24px;
+    }
+    #services, #about, #contact, .trainingbtn, .consultbtn, .managbtn, .introbtntxt, .left, .right{
+        font-size: large;
+    }
+    #companyTitle, #servicesTitle, .contactTitle{
+        font-size: 3.6rem;
+    }
+    .goal, #introButton, #wwd1, #wwd2, #wwd3, #wwd1Details button, #wwd2Details button, #wwd3Details button{
+        font-size: 2.8rem;
+    }
+    #companyBrief{
+        font-size: 1.3rem;
+    }
+    #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief, .ppl1, .ppl2, .ppl3, .ppl4, .ppl5{
+        font-size: 2rem;
+    }
+    #aboutPeople{
+        font-size: 3.4rem;
+    }
+    #contactTitle{
+        font-size: 4.4rem;
+    }
+    #contactBody{
+        font-size: 2.2rem;
+    }
 }
