@@ -82,9 +82,9 @@
 
         <div id="wwd1"></div>
         <div id="wwd1Details">
-            For organizations to appreciate security risks and protect the<br />
-            organization’s information assets, eStack provides world-class &amp;<br />
-            affordable info-security training to tech professionals in Tanzania.<br /><br />
+            For organizations to appreciate security risks and protect their<br />
+            information assets, eStack provides world-class &amp; affordable<br />
+            info-security training to tech professionals in Tanzania.<br /><br />
 
             <button onclick="location.href='services/information-security-training'"><span class="trainingbtn">TRAINING</span></button>
         </div>
