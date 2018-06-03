@@ -293,7 +293,7 @@ body{
 }
 #contactBody{
     position: absolute;
-    top: 30vh;
+    top: 40vh;
     left: 5vw;
     font-size: 1.4rem;
     color: var(--color-1);
