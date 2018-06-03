@@ -7,11 +7,11 @@ var typer = new TypeIt('.goal', {
     speed: 90,
     autoStart: true
 })
-    .type('Bridging skills gap in the Info-Security Industry')
+    .type('Bridging skills gap in the info-security industry')
     .break()
-    .type('by providing training and mentorship for both')
+    .type('by our training and mentorship for both technical')
     .break()
-    .type('technical experts and organisations in Tanzania.')
+    .type('experts and organisations in Tanzania.')
     .pause(5000)
     .options({speed: 10})
     .empty()
