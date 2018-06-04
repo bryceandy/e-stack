@@ -386,3 +386,29 @@ body{
         font-size: x-large;
     }
 }
+@media screen and (max-width: 1001px){
+    #blank{
+        display: none;
+    }
+    #header{
+        border-right: none;
+    }
+    #links{
+        right: 0;
+        width: 100vw;
+        display: none;
+    }
+    #services{
+        border-top: 1px solid var(--color-2);
+    }
+    #services, #about, #contact{
+        background: #000;
+    }
+    #content{
+        border-left: none;
+        grid-template-columns: 90vw;
+    }
+    #intro{
+        background: none;
+    }
+}
