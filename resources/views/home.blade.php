@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <i id="up" class="fas fa-arrow-up fa-3x"></i>
+    <i id="up" class="fas fa-arrow-up fa-2x"></i>
 
 </div>
 
