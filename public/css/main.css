@@ -124,6 +124,7 @@ body{
     right: 80vw;
     height: 85.7143vh;
     width: 20vw;
+    z-index: 2;
 }
 #services, #about, #contact{
     font-size: small;
@@ -469,6 +470,7 @@ body{
     }
     #services, #about, #contact{
         background: #000;
+        font-size: x-large;
     }
     #content{
         border-left: none;
@@ -476,8 +478,5 @@ body{
     }
     #intro{
         background: none;
-    }
-    #logo{
-        z-index: 2;
     }
 }
