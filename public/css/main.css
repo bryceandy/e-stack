@@ -533,18 +533,12 @@ body{
 }
 @media screen and (max-width: 720px){
     #companyBrief{
-        top: 0!important;
-        width: 90vw;
-        right: 5vw!important;
+        display: none;
     }
     #servicesTitle{
-        left: 45vw!important;
+        left: 0!important;
         font-size: 2.2rem;
         width: 90vw;
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-        transform: translateX(-50%);
+        text-align: center;
     }
 }
