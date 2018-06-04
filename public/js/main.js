@@ -4,7 +4,7 @@ $("#introButton").click(function(){
 });
 
 $("#up").click(function(){
-    TweenMax.to(window, 1.5, {scrollTo:"#content"});
+    TweenMax.to(window, 1.5, {scrollTo:{y: "#content", offset: window.innerHeight * .143}});
 });
 
 var typer = new TypeIt('.goal', {

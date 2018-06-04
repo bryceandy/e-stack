@@ -399,7 +399,7 @@ body{
     opacity: 0;
     transition: opacity 1.5s ease-in;
     cursor: pointer;
-    background: var(--color-1);
+    background: inherit;
 }
 @media screen and (min-width: 1450px){
     body{
