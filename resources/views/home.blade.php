@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <i id="up" class="fas fa-arrow-up fa-2x"></i>
+    <i id="up" class="fas fa-arrow-up fa-2x" onclick="topFunction()"></i>
 
 </div>
 
@@ -259,13 +259,6 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-
-        $("#up").click(function(){
-            $('body, html').animate({
-                scrollTop: 0
-            }, 1200);
-
-       });
 
         $("#services").click(function(){
             $('body, html').animate({

@@ -3,6 +3,11 @@ $("#introButton").click(function(){
     TweenMax.to(window, 1.5, {scrollTo:"#eservices"});
 });
 
+function topFunction(){
+    document.body.scrollTop = 0; //Safari
+    document.documentElement.scrollTop = 0; //Chrome, firefx, IE, Opera
+}
+
 var typer = new TypeIt('.goal', {
     speed: 65,
     autoStart: true
