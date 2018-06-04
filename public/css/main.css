@@ -534,7 +534,7 @@ body{
 @media screen and (max-width: 720px){
     #companyBrief{
         top: 0!important;
-        width: auto;
+        width: 90vw;
         right: 45vw;
         -webkit-transform: translateX(50%);
         -moz-transform: translateX(50%);
