@@ -393,7 +393,7 @@ body{
 #up{
     font-family: FontAwesome;
     position: fixed;
-    bottom: 10vh;
+    bottom: 9vh;
     right: 10vw;
     color: #000;
     opacity: 0;
