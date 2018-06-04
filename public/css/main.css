@@ -399,8 +399,7 @@ body{
     opacity: 0;
     transition: opacity 1.5s ease-in;
     cursor: pointer;
-    /*border: 1px solid var(--color-1);
-    border-radius: 0;*/
+    background: var(--color-1);
 }
 @media screen and (min-width: 1450px){
     body{

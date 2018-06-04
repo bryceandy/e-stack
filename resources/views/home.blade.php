@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <i id="up" class="fas fa-arrow-up fa-2x"></i>
+    <i id="up" class="fas fa-arrow-circle-up fa-2x"></i>
 
 </div>
 
@@ -260,12 +260,12 @@
 <script type="text/javascript">
     $(document).ready(function(){
 
-        $("#up").click(function(){
+        /*$("#up").click(function(){
             $('body, html').animate({
                 scrollTop: $(this).offset().top
             }, 1200);
 
-        });
+        });*/
 
         $("#services").click(function(){
             $('body, html').animate({
