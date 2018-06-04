@@ -535,15 +535,12 @@ body{
     #companyBrief{
         top: 0!important;
         width: 90vw;
-        right: 45vw;
-        -webkit-transform: translateX(50%);
-        -moz-transform: translateX(50%);
-        -ms-transform: translateX(50%);
-        -o-transform: translateX(50%);
-        transform: translateX(50%);
+        right: 5vw!important;
     }
     #servicesTitle{
-        left: 45vw;;
+        left: 45vw!important;
+        font-size: 2.2rem;
+        width: 90vw;
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
