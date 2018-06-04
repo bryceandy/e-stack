@@ -264,8 +264,8 @@
             }, 1200);
         });
 
-        $(".slide #services, .slide #about, .slide #contact").click(function(){
-            $("#pmenu, #links").removeClass('slide');
+        $(".slide").children().click(function(){
+            $("#pmenu, #links").removeClass("slide");
         });
 
     });
