@@ -124,7 +124,6 @@ body{
     right: 80vw;
     height: 85.7143vh;
     width: 20vw;
-    transition: width 1.2s ease-in;
 }
 #services, #about, #contact{
     font-size: small;
@@ -459,11 +458,11 @@ body{
         right: 0;
         opacity: 0;
         visibility: hidden;
+        width: 100vw;
     }
     #links.slide{
         opacity: 1;
         visibility: visible;
-        width: 100vw;
     }
     #services{
         border-top: 1px solid var(--color-2);
