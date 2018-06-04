@@ -525,9 +525,29 @@ body{
         border-bottom: none;
     }
     #companyBrief{
-        top: 4vh!important;
+        top: 10vh!important;
     }
     #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief{
         font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 720px){
+    #companyBrief{
+        top: 0!important;
+        width: auto;
+        right: 45vw;
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    #servicesTitle{
+        left: 45vw;;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
     }
 }
