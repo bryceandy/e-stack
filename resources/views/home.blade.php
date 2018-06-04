@@ -34,6 +34,13 @@
 
 <div id="header">
     <span class="moto">World-Class<br />Information Security Providers</span>
+
+    <div id="pmenu">
+        <div class="bar1"></div><br />
+        <div class="bar2" onclick="openMenu()"></div><br />
+        <div class="bar3"></div>
+    </div>
+
 </div>
 
 <div id="logo">

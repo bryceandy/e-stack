@@ -1,4 +1,8 @@
 
+function openMenu(){
+    $("#links, #pmenu").toggleClass("slide");
+}
+
 $("#introButton").click(function(){
     TweenMax.to(window, 1.5, {scrollTo:"#eservices"});
 });
