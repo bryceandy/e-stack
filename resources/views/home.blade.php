@@ -260,12 +260,12 @@
 <script type="text/javascript">
     $(document).ready(function(){
 
-        /*$("#up").click(function(){
+        $("#up").click(function(){
             $('body, html').animate({
-                scrollTop: $(this).offset().top
+                scrollTop: 0
             }, 1200);
 
-        });*/
+       });
 
         $("#services").click(function(){
             $('body, html').animate({

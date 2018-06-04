@@ -3,10 +3,6 @@ $("#introButton").click(function(){
     TweenMax.to(window, 1.5, {scrollTo:"#eservices"});
 });
 
-$("#up").click(function(){
-    TweenMax.to(window, 1.5, {scrollTo:{y: "#content", offset: -window.innerHeight * .143}});
-});
-
 var typer = new TypeIt('.goal', {
     speed: 65,
     autoStart: true
