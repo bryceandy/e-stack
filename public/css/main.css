@@ -99,8 +99,8 @@ body{
     line-height: 0;
 }
 #links.slide{
-    width: 100vw;
-    height: 85.7143vh;
+    opacity: 1;
+    visibility: visible;
 }
 #logo{
     position: fixed;
@@ -461,8 +461,8 @@ body{
     }
     #links{
         right: 0;
-        width: 0;
-        height: 0;
+        opacity: 0;
+        visibility: hidden;
     }
     #services{
         border-top: 1px solid var(--color-2);
