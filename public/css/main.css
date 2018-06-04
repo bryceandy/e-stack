@@ -50,6 +50,7 @@ body{
     cursor: pointer;
     right: 5vw;
     padding: 0.5rem;
+    display: none;
 }
 .moto, #pmenu{
     position: absolute;
@@ -453,7 +454,7 @@ body{
     #contactSvg{
         display: none;
     }
-    #contactSvg2{
+    #contactSvg2, #pmenu{
         display: block;
     }
     #blank{
