@@ -488,3 +488,16 @@ body{
         background: none;
     }
 }
+@media screen and (max-width: 940px){
+    #servicesTitle{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 814px){
+    #companyTitle, #servicesTitle, .contactTitle, #contactTitle, #aboutPeople{
+        font-size: 1.8rem;
+    }
+    .goal{
+        font-size: 1.3rem;
+    }
+}
