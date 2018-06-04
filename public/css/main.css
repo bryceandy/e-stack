@@ -444,6 +444,12 @@ body{
     }
 }
 @media screen and (max-width: 1001px){
+    #companyBrief{
+        width: 55vw;
+    }
+    .goal{
+        width: 80vw;
+    }
     #contactSvg{
         display: none;
     }
