@@ -264,6 +264,10 @@
             }, 1200);
         });
 
+        $(".side #services, .side #about, .side #contact").click(function(){
+            $("#links").removeClass('slide');
+        });
+
     });
 </script>
 
