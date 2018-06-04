@@ -100,6 +100,7 @@ body{
 }
 #links.slide{
     width: 100vw;
+    height: 85.7143vh;
 }
 #logo{
     position: fixed;
@@ -461,6 +462,7 @@ body{
     #links{
         right: 0;
         width: 0;
+        height: 0;
     }
     #services{
         border-top: 1px solid var(--color-2);
