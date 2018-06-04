@@ -193,6 +193,11 @@
             $("#links, #pmenu").toggleClass("slide");
 
         });
+
+        $(".slide").children().click(function(){
+            $("#pmenu, #links").removeClass("slide");
+        });
+        
     });
 </script>
 
@@ -262,10 +267,6 @@
             $('body, html').animate({
                 scrollTop: $("#contactus").offset().top
             }, 1200);
-        });
-
-        $(".slide").children().click(function(){
-            $("#pmenu, #links").removeClass("slide");
         });
 
     });
