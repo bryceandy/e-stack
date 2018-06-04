@@ -106,7 +106,6 @@ body{
     height: 14.2857vh;
     width: 20vw;
     border-bottom: 1px solid var(--color-2);
-    text-align: center;
     z-index: 2;
 }
 #logo h1 a{
@@ -499,5 +498,30 @@ body{
     }
     .goal{
         font-size: 1.3rem;
+    }
+    #header{
+        width: 70vw;
+    }
+    #logo{
+        width: 25vw;
+    }
+    #logo h1{
+        position: absolute;
+        top: 50%;
+        left: 5vw;
+        transform: translate(0, -50%);
+        -webkit-transform: translate(0, -50%);
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .moto{
+        display: none;
+    }
+    #content{
+        border-right: none;
+    }
+    #header, #logo{
+        border-bottom: none;
     }
 }
