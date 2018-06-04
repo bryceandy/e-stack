@@ -533,7 +533,7 @@ body{
     #companyBrief{
         top: 10vh!important;
     }
-    #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief, #aboutTitle{
+    #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief{
         font-size: 0.9rem;
     }
     #aboutBrief{
@@ -545,8 +545,9 @@ body{
         text-align: center;
         color: var(--color-2);
         position: absolute;
-        top: 18vh;
+        top: 30vh;
         left: 0;
+        font-size: 1.8rem;
     }
 }
 @media screen and (max-width: 720px){
