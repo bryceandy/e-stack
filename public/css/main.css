@@ -98,10 +98,6 @@ body{
 #pmenu.slide{
     line-height: 0;
 }
-#links.slide{
-    opacity: 1;
-    visibility: visible;
-}
 #logo{
     position: fixed;
     top: 0;
@@ -463,6 +459,10 @@ body{
         right: 0;
         opacity: 0;
         visibility: hidden;
+    }
+    #links.slide{
+        opacity: 1;
+        visibility: visible;
     }
     #services{
         border-top: 1px solid var(--color-2);
