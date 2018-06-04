@@ -170,6 +170,8 @@
         </div>
     </div>
 
+    <i id="up" class="fas fa-arrow-up"></i>
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -211,37 +213,42 @@
         $contacttop = parseInt(window.innerHeight * 4.6) ;
 
         $(window).scroll(function () {
-                if ($(this).scrollTop() > $servicestop) {
-                    $('#header').addClass('changeHeader');
-                    $('#services').addClass('changeServices');
-                }
-                if ($(this).scrollTop() > $servicesbottom) {
-                    $('#header').removeClass('changeHeader');
-                    $('#services').removeClass('changeServices');
-                }
-                if ($(this).scrollTop() < $servicestop) {
-                    $('#header').removeClass('changeHeader');
-                    $('#services').removeClass('changeServices');
-                }
 
-                if ($(this).scrollTop() > $abouttop) {
-                    $('#about').addClass('changeAbout');
-                }
-                if ($(this).scrollTop() > $aboutbottom) {
-                    $('#about').removeClass('changeAbout');
-                }
-                if ($(this).scrollTop() < $abouttop) {
-                    $('#about').removeClass('changeAbout');
-                }
+            if ($(this).scrollTop() > window.innerHeight){
+                $("#up").css('opacity', '1');
+            }
 
-                if ($(this).scrollTop() > $contacttop) {
-                    $('#contact').addClass('changeContact');
-                    $('#header').addClass('changeHeader');
-                }
-                if (($(this).scrollTop() < $contacttop) && ($(this).scrollTop() > $servicesbottom)){
-                    $('#contact').removeClass('changeContact');
-                    $('#header').removeClass('changeHeader');
-                }
+            if ($(this).scrollTop() > $servicestop) {
+                $('#header').addClass('changeHeader');
+                $('#services').addClass('changeServices');
+            }
+            if ($(this).scrollTop() > $servicesbottom) {
+                $('#header').removeClass('changeHeader');
+                $('#services').removeClass('changeServices');
+            }
+            if ($(this).scrollTop() < $servicestop) {
+                $('#header').removeClass('changeHeader');
+                $('#services').removeClass('changeServices');
+            }
+
+            if ($(this).scrollTop() > $abouttop) {
+                $('#about').addClass('changeAbout');
+            }
+            if ($(this).scrollTop() > $aboutbottom) {
+                $('#about').removeClass('changeAbout');
+            }
+            if ($(this).scrollTop() < $abouttop) {
+                $('#about').removeClass('changeAbout');
+            }
+
+            if ($(this).scrollTop() > $contacttop) {
+                $('#contact').addClass('changeContact');
+                $('#header').addClass('changeHeader');
+            }
+            if (($(this).scrollTop() < $contacttop) && ($(this).scrollTop() > $servicesbottom)){
+                $('#contact').removeClass('changeContact');
+                $('#header').removeClass('changeHeader');
+            }
         });
 
     });
