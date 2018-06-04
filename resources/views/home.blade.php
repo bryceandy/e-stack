@@ -262,7 +262,7 @@
 
         $("#up").click(function(){
             $('body, html').animate({
-                scrollTop: $("#content").offset().top
+                scrollTop: $(this).offset().top
             }, 1200);
 
         });
