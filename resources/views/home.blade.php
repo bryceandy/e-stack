@@ -142,6 +142,10 @@
             <path fill="#f4645f" stroke="#f4645f" stroke-width="0" d=" M75,0 C60,63.9 30,70 0,62.14 L0,85.71 L75,85.71 Z "></path>
         </svg>
 
+        <svg id="contactSvg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95 85.7143" preserveAspectRatio="none">
+            <path fill="#f4645f" stroke="#f4645f" stroke-width="0" d=" M95,0 C60,63.9 30,70 0,62.14 L0,85.71 L95,85.71 Z "></path>
+        </svg>
+
         <div id="contactTitle"></div>
 
     </div>

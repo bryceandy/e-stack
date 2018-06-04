@@ -285,6 +285,14 @@ body{
     height: 85.714vh;
     width: 75vw;
 }
+#contactSvg2{
+    display: none;
+    position: absolute;
+    top: 14.2857vh;
+    right: 0;
+    height: 85.714vh;
+    width: 95vw;
+}
 #contactBody{
     position: absolute;
     top: 40vh;
@@ -387,6 +395,12 @@ body{
     }
 }
 @media screen and (max-width: 1001px){
+    #contactSvg{
+        display: none;
+    }
+    #contactSvg2{
+        display: block;
+    }
     #blank{
         display: none;
     }
@@ -410,5 +424,8 @@ body{
     }
     #intro{
         background: none;
+    }
+    #logo{
+        z-index: 2;
     }
 }
