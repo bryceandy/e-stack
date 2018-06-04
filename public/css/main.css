@@ -504,6 +504,7 @@ body{
     }
     #logo{
         width: 25vw;
+        right: 75vw;
     }
     #logo h1{
         position: absolute;
