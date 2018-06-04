@@ -37,7 +37,7 @@
 
     <div id="pmenu">
         <div class="bar1"></div><br />
-        <div class="bar2" onclick="openMenu()"></div><br />
+        <div class="bar2"></div><br />
         <div class="bar3"></div>
     </div>
 
@@ -183,6 +183,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{'js/jquery-3.2.1.js'}}">\x3C/script>')</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+{{--menu opening--}}
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $("#pmenu").click(function(){
+
+            $("#links, #pmenu").toggleClass("slide");
+
+        });
+    });
+</script>
 
 <script type="text/javascript">
     $(document).ready(function(){
