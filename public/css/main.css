@@ -509,10 +509,9 @@ body{
     #logo h1{
         position: absolute;
         top: 50%;
-        left: 5vw;
+        left: 10vw;
         transform: translate(0, -50%);
         -webkit-transform: translate(0, -50%);
-        margin-right: 0;
     }
 }
 @media screen and (max-width: 768px){
@@ -524,5 +523,11 @@ body{
     }
     #header, #logo{
         border-bottom: none;
+    }
+    #companyBrief{
+        top: 4vh!important;
+    }
+    #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief{
+        font-size: 0.9rem;
     }
 }
