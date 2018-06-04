@@ -194,9 +194,9 @@
 
         });
 
-        $(".slide").children().click(function(){
+        /*$(".slide").children().click(function(){
             $("#pmenu, #links").removeClass("slide");
-        });
+        });*/
 
     });
 </script>
@@ -255,18 +255,24 @@
             $('body, html').animate({
                 scrollTop: $("#eservices").offset().top
             }, 1200);
+
+            $("#pmenu, #links").removeClass("slide");
         });
 
         $("#about").click(function(){
             $('body, html').animate({
                 scrollTop: $("#aboutus").offset().top
             }, 1200);
+
+            $("#pmenu, #links").removeClass("slide");
         });
 
         $("#contact").click(function(){
             $('body, html').animate({
                 scrollTop: $("#contactus").offset().top
             }, 1200);
+
+            $("#pmenu, #links").removeClass("slide");
         });
 
     });
