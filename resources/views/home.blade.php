@@ -216,6 +216,8 @@
 
             if ($(this).scrollTop() > window.innerHeight){
                 $("#up").css('opacity', '1');
+            }else if ($(this).scrollTop() < window.innerHeight){
+                $("#up").css('opacity', '0');
             }
 
             if ($(this).scrollTop() > $servicestop) {
