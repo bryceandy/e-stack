@@ -304,6 +304,9 @@ body{
 #companyBrief i{
     color: #000;
 }
+#aboutTitle{
+    display: none;
+}
 #aboutBrief i{
     color: var(--color-2);
 }
@@ -527,8 +530,19 @@ body{
     #companyBrief{
         top: 10vh!important;
     }
-    #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief{
+    #wwd3Details, #wwd2Details, #wwd1Details, #aboutBrief, #aboutTitle{
         font-size: 0.9rem;
+    }
+    #aboutBrief{
+        top: 45vh;
+    }
+    #aboutTitle{
+        display: block;
+        width: 90vw;
+        text-align: center;
+        color: var(--color-2);
+        position: absolute;
+        top: 18vh;
     }
 }
 @media screen and (max-width: 720px){

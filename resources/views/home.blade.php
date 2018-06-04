@@ -120,6 +120,10 @@
 
         <img src="/images/Amani-Place.jpg"/>
 
+        <div id="aboutTitle">
+            About Us
+        </div>
+
         <div id="aboutBrief">
             <i>eStack</i> believes in utilizing global experience and expertise in solving<br />
               our customer’s problems. We employ local staff, and partner with<br />
