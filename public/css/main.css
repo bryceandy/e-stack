@@ -447,6 +447,9 @@ body{
     }
 }
 @media screen and (max-width: 1001px){
+    #aboutus img{
+        width: 95vw;
+    }
     #companyBrief{
         width: 55vw;
     }
@@ -543,6 +546,7 @@ body{
         color: var(--color-2);
         position: absolute;
         top: 18vh;
+        left: 0;
     }
 }
 @media screen and (max-width: 720px){
