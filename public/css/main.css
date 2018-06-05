@@ -584,4 +584,14 @@ body{
     .br{
         display: none;
     }
+    #aboutBrief{
+        width: 90vw;
+        height: auto;
+    }
+    #aboutPeople{
+        top: 70vh;
+    }
+    #aboutList{
+        top: 80vh;
+    }
 }
