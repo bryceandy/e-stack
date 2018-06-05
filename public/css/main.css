@@ -618,6 +618,34 @@ body{
         top: 28vh;
     }
     .contactTitle{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 434px){
+    #wwd1, #wwd2, #wwd3{
         font-size: 1.2rem;
+    }
+    #companyTitle, #servicesTitle, #contactTitle, #aboutPeople{
+        font-size: 1.4rem;
+    }
+    .ppl1, .ppl2, .ppl3, .ppl4, .ppl5, #contactBody{
+        font-size: 0.8rem;
+    }
+    .left{
+        left: 40vw;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        top: 20%;
+    }
+    .right{
+        right: 40vw;
+        transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        top: 50%;
+    }
+}
+@media screen and (max-width: 372px){
+    .goal{
+        font-size: 1rem;
     }
 }
