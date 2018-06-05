@@ -644,8 +644,17 @@ body{
         top: 50%;
     }
 }
+@media screen and (max-width: 428px){
+    .left{
+        left: 30vw;
+    }
+}
 @media screen and (max-width: 372px){
     .goal{
         font-size: 1rem;
+    }
+    .right{
+        right: 45vw;
+        top: 75%;
     }
 }
