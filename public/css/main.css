@@ -585,7 +585,7 @@ body{
         display: none;
     }
     #aboutBrief{
-        width: 90vw;
+        width: 85vw;
         height: auto;
     }
     #aboutPeople{
@@ -593,5 +593,31 @@ body{
     }
     #aboutList{
         top: 80vh;
+    }
+    .bar1, .bar2, .bar3{
+        background-color: var(--color-2);
+    }
+}
+@media screen and (max-width: 510px){
+    .ppl1, .ppl2, .ppl3, .ppl4, .ppl5, #contactBody{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 450px){
+    #content{
+        border-right: none;
+        border-bottom: none;
+    }
+    #logo, #header{
+        border-bottom: none;
+    }
+    #companyTitle{
+        top: 15vh;
+    }
+    #introText{
+        top: 28vh;
+    }
+    .contactTitle{
+        font-size: 1.2rem;
     }
 }
