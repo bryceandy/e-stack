@@ -89,8 +89,8 @@
 
         <div id="wwd1"></div>
         <div id="wwd1Details">
-            For organizations to appreciate security risks and protect their<br />
-            information assets, eStack provides world-class &amp; affordable<br />
+            For organizations to appreciate security risks and protect their<br class="br"/>
+            information assets, eStack provides world-class &amp; affordable<br class="br"/>
             info-security training to tech professionals in Tanzania.<br /><br />
 
             <button onclick="location.href='services/information-security-training'"><span class="trainingbtn">TRAINING</span></button>
@@ -98,8 +98,8 @@
 
         <div id="wwd2"></div>
         <div id="wwd2Details">
-            With our experience in banking, financial institutions, ISPs &amp;<br />
-            government organisations, eStack improves the security of firms in<br />
+            With our experience in banking, financial institutions, ISPs &amp;<br class="br"/>
+            government organisations, eStack improves the security of firms in<br class="br"/>
             Tanzania by providing quality Information Security Consultancy.<br /><br />
 
             <button onclick="location.href='services/consultancy'"><span class="consultbtn">CONSULTANCY</span></button>
@@ -108,8 +108,8 @@
         <div id="wwd3"></div>
         <div id="wwd3Details">
 
-            eStack provides Managed Security Services to organizations that do<br />
-            not carry out info-security operations. We protect the client’s environment<br />
+            eStack provides Managed Security Services to organizations that do<br class="br"/>
+            not carry out info-security operations. We protect the client’s environment<br class="br"/>
             while observing confidentiality of the organization’s information.<br /><br />
 
             <button onclick="location.href='services/managed-security'"><span class="managbtn">MANAGED SECURITY</span></button>

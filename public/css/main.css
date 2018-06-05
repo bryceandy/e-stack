@@ -395,7 +395,7 @@ body{
     position: fixed;
     bottom: 9vh;
     right: 10vw;
-    color: #000;
+    color: var(--color-2);
     opacity: 0;
     transition: opacity 1.5s ease-in;
     cursor: pointer;
@@ -581,5 +581,7 @@ body{
     }
 }
 @media screen and (max-width: 582px){
-
+    .br{
+        display: none;
+    }
 }

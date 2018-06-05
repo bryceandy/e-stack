@@ -4,8 +4,9 @@ $("#introButton").click(function(){
 });
 
 function topFunction(){
-    document.body.scrollTop = 0; //Safari
-    document.documentElement.scrollTop = 0; //Chrome, firefx, IE, Opera
+    /*document.body.scrollTop = 0; //Safari
+    document.documentElement.scrollTop = 0; //Chrome, firefx, IE, Opera*/
+    $("body,html").animate({scrollTop:0}, '1500');
 }
 
 var typer = new TypeIt('.goal', {
