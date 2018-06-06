@@ -74,7 +74,7 @@
 
     <div id="eservices">
 
-        <img src="/images/estackbackground.jpeg" alt="background1" />
+        <img src="/images/estackbackground2.jpeg" alt="background1" />
 
         <div id="companyBrief">
 
