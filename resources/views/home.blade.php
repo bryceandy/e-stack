@@ -223,15 +223,15 @@
             }
 
             if ($(this).scrollTop() > $servicestop) {
-                $('#header').addClass('changeHeader');
+                $('#header').addClass('changeHeader2');
                 $('#services').addClass('changeServices');
             }
             if ($(this).scrollTop() > $servicesbottom) {
-                $('#header').removeClass('changeHeader');
+                $('#header').removeClass('changeHeader2');
                 $('#services').removeClass('changeServices');
             }
             if ($(this).scrollTop() < $servicestop) {
-                $('#header').removeClass('changeHeader');
+                $('#header').removeClass('changeHeader2');
                 $('#services').removeClass('changeServices');
             }
 

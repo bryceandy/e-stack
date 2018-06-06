@@ -58,6 +58,9 @@ body{
 #header.changeHeader{
     /*color: var(--color-3);*/
 }
+#header.changeHeader2{
+    color: var(--color-3);
+}
 #pmenu{
     line-height: 0.2rem;
     cursor: pointer;
@@ -245,7 +248,7 @@ body{
     position: absolute;
     left: 5vw;
     font-size: 1.8rem;
-    color: #000;
+    color: var(--color-1);
     z-index: 3;
 }
 #wwd1{
@@ -279,7 +282,7 @@ body{
     padding-left: 3vw;
     padding-right: 3vw;
     width: auto;
-    z-index:m3;
+    z-index: 3;
 }
 #wwd1Details button, #wwd2Details button, #wwd3Details button{
     cursor: pointer;
