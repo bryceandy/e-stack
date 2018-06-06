@@ -165,7 +165,7 @@ new ScrollMagic.Scene({
     triggerElement: "#aboutBrief",
     triggerHook: "onEnter"
 })
-    .setTween(TweenMax.from("#aboutBrief", 0.5, {autoAlpha: 0, y: 400, ease: Power1.easeIn}))
+    .setTween(TweenMax.from("#aboutBrief", 0.5, {autoAlpha: 0, y: 200, ease: Power1.easeIn}))
     .addTo(controller);
 
 new ScrollMagic.Scene({
