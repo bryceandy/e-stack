@@ -33,7 +33,7 @@
 <div id="blank"></div>
 
 <div id="header">
-    <span class="moto">World-Class<br />Information Security Providers</span>
+    <span class="moto">Information Security<br />Providers</span>
 
     <div id="pmenu">
         <div class="bar1"></div><br />
@@ -73,6 +73,8 @@
     </div>
 
     <div id="eservices">
+
+        <img src="/images/estackbackground.jpeg" alt="background1" />
 
         <div id="companyBrief">
 
