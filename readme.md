@@ -1,4 +1,4 @@
-##e-stack
+## e-stack
 
 A co-orporate web app for security experts in Tanzania.
 
