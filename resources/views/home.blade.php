@@ -130,7 +130,7 @@
         <div id="aboutBrief">
             <i>eStack</i> believes in utilizing global experience and expertise in solving<br class="br"/>
               our customer’s problems. We employ local staff, and partner with<br class="br"/>
-              international top notch Systems &amp; Security specialist to deliver top<br class="br"/>
+              international top notch Systems &amp; Security specialists to deliver top<br class="br"/>
               class service to our customers.
         </div>
         <div id="aboutPeople"></div>
