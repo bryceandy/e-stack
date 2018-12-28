@@ -148,7 +148,7 @@
         <div id="contactBody">
             <span class="contactTitle">eStack</span><br />
             <span class="contactTitle">Systems | Security</span><br />
-            email: info@estack.co.tz<br />
+            email: info@estack.com<br />
             phone: 0715 123 338
         </div>
 
